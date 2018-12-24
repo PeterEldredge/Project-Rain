@@ -7,6 +7,7 @@ public class RocketController : MonoBehaviour {
 	//Tweakable values
 	[SerializeField] private float _thrustForce = 1000f;
 	[SerializeField] private float _rotationSensitivity = 100f;
+	[SerializeField] private bool _firstPersonMode = false;
 
 	//Components
 	[SerializeField] private AudioSource _thrustAudioSource;
@@ -57,7 +58,15 @@ public class RocketController : MonoBehaviour {
 
 	private void GetInput()
 	{
-		_rotationInput = Input.GetAxisRaw("Horizontal");
+		if(_firstPersonMode)
+		{
+			_rotationInput = Input.GetAxisRaw("Vertical");
+		}
+		else
+		{
+			_rotationInput = Input.GetAxisRaw("Horizontal");
+		}
+		
 		_thrustInput = Input.GetButton("Jump");
 	}
 
