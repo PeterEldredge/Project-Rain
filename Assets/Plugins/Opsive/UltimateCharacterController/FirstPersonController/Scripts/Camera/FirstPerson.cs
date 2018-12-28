@@ -642,11 +642,11 @@ namespace Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTy
         {
             //Updated to get rid of head movements while moving, to revert, uncomment and remove offset
 
-            //UpdateSway();
+            UpdateSway();
 
-            //UpdateBob();
+            UpdateBob();
 
-            /*var targetPosition = GetTargetPosition();
+            var targetPosition = GetTargetPosition();
 
             // Adjust the camera position to prevent the body from clipping with the camera's spring-based motions.
             if (m_MaxPitchLimit != 0) {
@@ -666,10 +666,7 @@ namespace Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTy
                 // Move the camera in if an object obstructed the view.
                 targetPosition = m_RaycastHit.point + m_RaycastHit.normal * (m_Camera.nearClipPlane + m_CharacterLocomotion.ColliderSpacing);
             }
-            m_CharacterLocomotion.EnableColliderCollisionLayer(true);*/
-
-            var offset = m_PositionSpring.Value;
-            offset.x = 0;
+            m_CharacterLocomotion.EnableColliderCollisionLayer(true);
 
             return GetAnchorTransformPoint(offset);
         }
