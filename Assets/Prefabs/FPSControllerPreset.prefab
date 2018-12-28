@@ -10024,7 +10024,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1462256758675826}
   m_LocalRotation: {x: -0, y: 0.99907994, z: -0, w: 0.04288786}
-  m_LocalPosition: {x: -3.66, y: 59.446, z: -8.97}
+  m_LocalPosition: {x: -3.66, y: 60.18, z: -8.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4715006731745324}
@@ -19586,9 +19586,9 @@ MonoBehaviour:
   m_InitCharacterOnAwake: 1
   m_Character: {fileID: 1358368344283942}
   m_Anchor: {fileID: 0}
-  m_AutoAnchor: 0
+  m_AutoAnchor: 1
   m_AutoAnchorBone: 10
-  m_AnchorOffset: {x: 0, y: 1.2, z: 0}
+  m_AnchorOffset: {x: 0, y: -0.1, z: 0}
   m_ViewTypeFullName: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.Combat
   m_FirstPersonViewTypeFullName: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.Combat
   m_ThirdPersonViewTypeFullName: 
