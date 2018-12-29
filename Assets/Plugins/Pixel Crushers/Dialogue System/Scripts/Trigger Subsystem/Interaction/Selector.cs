@@ -404,6 +404,7 @@ namespace PixelCrushers.DialogueSystem
         protected virtual void Run3DRaycast()
         {
             Ray ray = UnityEngine.Camera.main.ScreenPointToRay(GetSelectionPoint());
+            Debug.DrawRay(ray.origin, ray.direction * maxSelectionDistance, Color.red);
             lastRay = ray;
 
             if (raycastAll)

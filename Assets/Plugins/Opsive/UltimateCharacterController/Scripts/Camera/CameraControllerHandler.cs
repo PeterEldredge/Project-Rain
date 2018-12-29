@@ -194,7 +194,7 @@ namespace Opsive.UltimateCharacterController.Camera
         /// Enables or disables gameplay input. An example of when it will not be enabled is when there is a fullscreen UI over the main camera.
         /// </summary>
         /// <param name="enable">True if the input is enabled.</param>
-        private void OnEnableGameplayInput(bool enable)
+        public void OnEnableGameplayInput(bool enable)
         {
             m_AllowGameplayInput = enable;
             enabled = m_AllowGameplayInput && m_Character != null && m_Character.activeInHierarchy;
