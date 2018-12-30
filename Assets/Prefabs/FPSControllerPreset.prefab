@@ -2056,6 +2056,7 @@ GameObject:
   - component: {fileID: 114459461586772338}
   - component: {fileID: 114365874037652272}
   - component: {fileID: 114707016043028352}
+  - component: {fileID: 114271613270633912}
   m_Layer: 0
   m_Name: Dialogue Manager
   m_TagString: Untagged
@@ -2086,6 +2087,7 @@ GameObject:
   - component: {fileID: 114304245811763442}
   - component: {fileID: 114753082267309962}
   - component: {fileID: 114341784659441202}
+  - component: {fileID: 114532104781444642}
   m_Layer: 31
   m_Name: Nolan
   m_TagString: Player
@@ -4291,6 +4293,7 @@ GameObject:
   - component: {fileID: 114771776240976638}
   - component: {fileID: 114682129312749524}
   - component: {fileID: 114626691251349920}
+  - component: {fileID: 114379046445610726}
   - component: {fileID: 114449485845804732}
   m_Layer: 0
   m_Name: MainCamera
@@ -4701,6 +4704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266971993533504}
   - component: {fileID: 20308870914877220}
+  - component: {fileID: 114057279958437502}
   m_Layer: 0
   m_Name: First Person Camera
   m_TagString: Untagged
@@ -10074,7 +10078,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1462256758675826}
   m_LocalRotation: {x: -0, y: 0.99907994, z: -0, w: 0.04288786}
-  m_LocalPosition: {x: -3.66, y: 60.18, z: -8.97}
+  m_LocalPosition: {x: -3.66, y: 59.463, z: -8.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4791530919698798}
@@ -14741,6 +14745,18 @@ MonoBehaviour:
     m_BlockList: []
     m_Default: 1
   m_Active: 1
+--- !u!114 &114057279958437502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1842653997070226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 4684954c4f021724da476396700abf63, type: 2}
 --- !u!114 &114061608071485760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15477,6 +15493,188 @@ MonoBehaviour:
   m_ReloadProjectileAttachment: {fileID: 0}
   m_ReloadProjectileAttachmentID: -1
   m_ScopeCamera: {fileID: 1473973937294414}
+--- !u!114 &114271613270633912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353394974130406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5473918a168c44fa0294bd4d1399f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversationEvents:
+    onConversationStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114419561610614358}
+          m_MethodName: set_DisableCursor
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114771776240976638}
+          m_MethodName: OnEnableGameplayInput
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114851232846608678}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114419561610614358}
+          m_MethodName: set_DisableCursor
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 114771776240976638}
+          m_MethodName: OnEnableGameplayInput
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 114851232846608678}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLine:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLineEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLineCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationResponseMenu:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+ResponsesEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationResponseMenuTimeout:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onLinkedConversationStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  barkEvents:
+    onBarkStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onBarkEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onBarkLine:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  sequenceEvents:
+    onSequenceStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onSequenceEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  questEvents:
+    onQuestStateChange:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onQuestTrackingEnabled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onQuestTrackingDisabled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onUpdateQuestTracker:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  pauseEvents:
+    onDialogueSystemPause:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onDialogueSystemUnpause:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
 --- !u!114 &114272270253377258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16244,6 +16442,144 @@ MonoBehaviour:
   m_TrajectoryLocation: {fileID: 0}
   m_PinAttachmentLocation: {fileID: 0}
   m_PinAttachmentLocationID: -1
+--- !u!114 &114379046445610726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1761746993660590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5473918a168c44fa0294bd4d1399f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversationEvents:
+    onConversationStart:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1761746993660590}
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1761746993660590}
+          m_MethodName: 
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLine:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLineEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationLineCancelled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationResponseMenu:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+ResponsesEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onConversationResponseMenuTimeout:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onLinkedConversationStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  barkEvents:
+    onBarkStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onBarkEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onBarkLine:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+SubtitleEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  sequenceEvents:
+    onSequenceStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onSequenceEnd:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+TransformEvent,
+        Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  questEvents:
+    onQuestStateChange:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onQuestTrackingEnabled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onQuestTrackingDisabled:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: PixelCrushers.DialogueSystem.DialogueSystemEvents+StringEvent, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onUpdateQuestTracker:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  pauseEvents:
+    onDialogueSystemPause:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onDialogueSystemUnpause:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
 --- !u!114 &114390144477911912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17280,6 +17616,20 @@ MonoBehaviour:
   m_StepForceScale: 1
   m_StepPositionBalance: 0
   m_StepRotationBalance: 0
+--- !u!114 &114532104781444642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1358368344283942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cc181fd85762c43ba3dfb6bf475aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 0}
+  scrollContent: {fileID: 0}
+  scrollbar: {fileID: 0}
 --- !u!114 &114535024400350726
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19873,9 +20223,9 @@ MonoBehaviour:
   m_InitCharacterOnAwake: 1
   m_Character: {fileID: 1358368344283942}
   m_Anchor: {fileID: 0}
-  m_AutoAnchor: 1
+  m_AutoAnchor: 0
   m_AutoAnchorBone: 10
-  m_AnchorOffset: {x: 0, y: -0.1, z: 0}
+  m_AnchorOffset: {x: 0, y: 1.3, z: 0}
   m_ViewTypeFullName: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.Combat
   m_FirstPersonViewTypeFullName: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.Combat
   m_ThirdPersonViewTypeFullName: 
@@ -19883,7 +20233,7 @@ MonoBehaviour:
   - m_ObjectType: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.Combat
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c25f75d6432f7488ae5e4a3e9221f756b7db8984ddde3136deae3fe929dd159f2da0b2b7435a54e564bd84d7258d838980bc693f748006579a399885b94d0c975a1d0b49b54be0ffb91f8e07cec91045fa4ef4678b1ef319e64dd8cfda1175e7ffcb08161f0c6247afdc60fa0b0b46affedee3b8148885f63646e987b716e83a1245cde006196af82bc2fd36427c1c17c34c1aca2e7ae070224e9d8837f82fc65de04b57deb04a0a39ef2fa02db2ccc8436c6ef664cbd7f7e59bd6aa40cabc50349e59685a47eba67a9452b7fb64516a569337104a66d428601076668d44cbe7fe14ca9a5943a0405d174d5862c0ef96871b93d807eb928a631a783056ee15487c97a78697a38ad80873898a63a26f3057760c487d2f9e76982990f818f99faa6428755067fc12688da5a4a6a340c6781410c52a7f4f9ac0631347e888ccda16a674ab581744aa0a72738fb066472cc88bf0bf06a95b5fb81a2b5e6a755a3410792dd1289ed76366be46b3b82f16b26a8a4598107e1935289cc008bd33c2d766b715775827e5760a83145bb076e7f8c89c918b06ba439aa82b13995a86427f007a161c189ac67c2d3118277e7440f52f1fcfae46ba8b3da82b5b3c5a868a12008a5dbf1890075156c7c49fce19d993aecdfc473df62390ba13d390dca65df27147aed18ee0f906012ac773ae934f0e9fcefd4f198cffd39dbcad4f3c1389bb21a660680c3a354546dba18932143825eccb8a42e09cf83bacf595adc3bdf11382962b1493a960263d8ab1c14912f0620c841d380f0634cdaca91e8b834eefc236074b47f4df753915e2ba5aafc40bf5bb5c4a867ecd675c814f8ee21ef268b00597b7620a4012e7c9184cd8da2b81ea740cd3858f95122643063efc45885681e33b304fd9c101968c896d0c3b51970d5c64dc1ee6462db9f1de6c4ab54f8910c7d1a0b665748a744c114018d40a6d1eed302cf8240e57f3b8d59ee3a5e0a7d13b41f5bf2a81f4304c2c4d8d7e83c154714a0e93a13da53cf33289d11810300dcf36bc57ea3
     m_ValuePositions: 000000000400000004000000080000000c0000001000000011000000110000001a0000001e0000002200000023000000230000002b0000002f00000033000000340000003400000042000000460000004a0000004b0000004b00000054000000580000005c0000005d0000005d00000065000000690000006d0000006e0000006e000000790000007d000000810000008200000082000000880000008c000000900000009100000091000000970000009b0000009f000000a0000000a0000000a5000000a9000000ad000000ae000000ae000000b3000000b7000000bb000000bc000000bc000000bf000000c3000000c7000000c8000000c8000000d2000000d6000000da000000db000000db000000e0000000e4000000e8000000e9000000e9000000f4000000f8000000fc000000fd000000fd000000080100000c0100001001000011010000110100001a0100001e010000220100002301000023010000390100003d01000041010000420100004201000053010000570100005b0100005c0100005c0100006a0100006e0100007201000083010000840100008401000093010000970100009b0100009c0100009c010000a0010000a4010000a8010000b6010000cc010000db010000dc010000dc010000e3010000e7010000eb010000ec010000f0010000fc010000080200000c0200001002000014020000200200002c0200002d0200003102000035020000360200003a0200003e02000042020000460200004a0200004e0200005202000056020000560200005a0200005e02000062020000660200006a0200006e0200007a02000086020000860200008a0200008e02000092020000960200009a0200009e020000aa020000b6020000b6020000ba020000be020000c2020000c6020000ca020000ce020000da020000e6020000e6020000ea020000ee020000f2020000f6020000fa020000fe0200000a030000160300001a0300001e0300002a030000360300003a0300003e03000042030000460300004a03000056030000570300005b030000670300006b030000
-    m_Values: 17000000426f647900000000000000000041696d4b6174616e6101000000000000000041696d4b6e69666502000000000000000041696d53776f7264536869656c6403000000000000000041696d536869656c6404000000000000000041696d53776f726405000000000000000053776f7264536869656c64060000000000000000536869656c640700000000000000004b6174616e6108000000000000000053776f72640900000000000000004b6e6966650a0000000000000000426f770b0000000000000000537072696e67734f66660c00000000000000004769616e740d00000000000000004472756e6b506572736f6e0e00000000000000004372617a79436f77626f790f0000000000000000417374726f6e6175741000000000000000005a6f6f6d5072696d617279467261674772656e61646511000000000000000052656c6f6164536e697065725269666c6512000000000000000041696d536e697065725269666c65130000000100000052656c6f6164536e697065725269666c650041696d41737361756c745269666c651400000000000000005a6f6f6d150000000300000041696d536e697065725269666c655a6f6f6d5072696d617279467261674772656e61646541696d41737361756c745269666c650044656661756c74ffffffff00000000010000c84200000000cdcc4c3d713d8a3e0000000000000000295c8f3effffffdf00008c42cdcc4c3e000000000000000000000000000000000000000000000000011600000000000020010000f041cdcc4c3e0000803e713daa3f010000000ad7233ccdcc4c3d01000000cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46000090c200009042000000003333b33f00000000000000003333b33e000000006666663f9a99d93f0000803f00401c460ad723bc00000000000000000000000001cdcccc3d00002041000020410000000002000000cdcc4c3d
+    m_Values: 17000000426f647900000000000000000041696d4b6174616e6101000000000000000041696d4b6e69666502000000000000000041696d53776f7264536869656c6403000000000000000041696d536869656c6404000000000000000041696d53776f726405000000000000000053776f7264536869656c64060000000000000000536869656c640700000000000000004b6174616e6108000000000000000053776f72640900000000000000004b6e6966650a0000000000000000426f770b0000000000000000537072696e67734f66660c00000000000000004769616e740d00000000000000004472756e6b506572736f6e0e00000000000000004372617a79436f77626f790f0000000000000000417374726f6e6175741000000000000000005a6f6f6d5072696d617279467261674772656e61646511000000000000000052656c6f6164536e697065725269666c6512000000000000000041696d536e697065725269666c65130000000100000052656c6f6164536e697065725269666c650041696d41737361756c745269666c651400000000000000005a6f6f6d150000000300000041696d536e697065725269666c655a6f6f6d5072696d617279467261674772656e61646541696d41737361756c745269666c650044656661756c74ffffffff00000000010000c84200000000cdcc4c3d713d8a3e0000000000000000295c8f3effffffdf00008c42cdcc4c3e000000000000000000000000000000000000000000000000011600000000000020010000f041cdcc4c3e0000803e000000001e0000000ad7233ccdcc4c3d01000000cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46cdcc4c3e0000803e0000803f78000000acc5273700401c4600401cc600401cc600401cc600401c4600401c4600401c46000090c200009042000000000000000000000000000000003333b33e000000006666663f9a99d93f0000803f00401c460ad723bc000000000000000000000000010000000000000000000000000000000002000000cdcc4c3d
     m_UnityObjects:
     - {fileID: 11400000, guid: c8b66ce4269161c4b88f5f71c030e0ee, type: 2}
     - {fileID: 11400000, guid: 4ca87b146a9b633428b4d3b210fa60c6, type: 2}
@@ -19908,7 +20258,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 64ffce416196687489b7775432dbf11c, type: 2}
     - {fileID: 11400000, guid: f08c1d8b08898574baa7bd27c1b05e62, type: 2}
     - {fileID: 20308870914877220}
-    m_Version: 2.0.5
+    m_Version: 2.0.7
   - m_ObjectType: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.FreeLook
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c25f75d6432f7488ae5e4a3e9221f756b7db8984ddde3136deae3fe929dd159f2da0b2b7435a54e564bd84d7258d838980bc693f748006579a399885b94d0c975a1d0b49b54be0ffb91f8e07cec91045fa4ef4678b1ef319e64dd8cfda1175e7ffcb08161f0c6247afdc60fa0b0b46affedee3b8148885f63646e987b716e83a1245cde006196af82bc2fd36427c1c17c34c1aca2e7ae070224e9d8837f82fc65de04b57deb04a0a39ef2fa02db2ccc8436c6ef664cbd7f7e59bd6aa40cabc50349e59685a47eba67a9452b7fb64516a569337104a66d428601076668d44cbe7fe14ca9a5943a0405d174d5862c0ef96871b93d807eb928a631a783056ee15487c97a78697a38ad80873898a63a26f3057760c487d2f9e76982990f818f99faa6428755067fc12688da5a4a6a340c6781410c52a7f4f9ac0631347e888ccda16a674ab581744aa0a72738fb066472cc880df047d3fddc25e7bf0bf06a95b5fb81a2b5e6a755a3410792dd1289ed76366b7c49fce19d993aecdfc473df62390ba13d390dca65df27147aed18ee0f906012ac773ae934f0e9fcefd4f198cffd39dbcad4f3c1389bb21a660680c3a354546dba18932143825eccb8a42e09cf83bacf595adc3bdf11382962b1493a960263d8ab1c14912f0620c841d380f0634cdaca91e8b834eefc236074b47f4df753915e2ba5aafc40bf5bb5c4a867ecd675c814f8ee21ef268b00597b7620a4012e7c9184cd8da2b81ea740cd3858f95122643063efc45885681e33b304fd9c101968c896d0c3b51970d5c64dc1ee6462db9f1de6c4ab54f8910c7d1a0b665748a744c114018d40a6d1eed302cf8240e57f3b8d59ee3a5e0a7d13b41f5bf2a81f4304c2c4d8d7e83c154714a0e93a13da53cf33289d11810300dcf36bc57ea38525290197f289292bc1a97e
     m_ValuePositions: 000000000400000004000000080000000c0000001000000011000000110000001a0000001e0000002200000023000000230000002b0000002f00000033000000340000003400000042000000460000004a0000004b0000004b00000054000000580000005c0000005d0000005d00000065000000690000006d0000006e0000006e000000790000007d000000810000008200000082000000880000008c000000900000009100000091000000970000009b0000009f000000a0000000a0000000a5000000a9000000ad000000ae000000ae000000b3000000b7000000bb000000bc000000bc000000bf000000c3000000c7000000c8000000c8000000cc000000d0000000d4000000d5000000d5000000dd000000e1000000e5000000e6000000e6000000f5000000f9000000fd000000fe000000fe000000060100000a0100000e0100000f0100000f01000025010000290100002d0100002e0100002e01000032010000360100003a010000490100005f0100006001000060010000670100006b0100006f0100007001000074010000800100008c010000900100009401000098010000a4010000b0010000b1010000b5010000b9010000ba010000be010000c2010000c6010000ca010000ce010000d2010000d6010000da010000da010000de010000e2010000e6010000ea010000ee010000f2010000fe0100000a0200000a0200000e02000012020000160200001a0200001e020000220200002e0200003a0200003a0200003e02000042020000460200004a0200004e020000520200005e0200006a0200006a0200006e02000072020000760200007a0200007e020000820200008e0200009a0200009e020000a2020000ae020000ba020000be020000c2020000c6020000ca020000ce020000da020000db020000df020000eb020000ef020000f3020000f7020000fb020000
@@ -19933,7 +20283,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1c1c5b546459e3347aac468272cf023f, type: 2}
     - {fileID: 11400000, guid: 538aa537a9f445e40b8a2c2758627962, type: 2}
     - {fileID: 20308870914877220}
-    m_Version: 2.0.5
+    m_Version: 2.0.7
   - m_ObjectType: Opsive.UltimateCharacterController.FirstPersonController.Camera.ViewTypes.TransformLook
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3ce97db02c568fba479e66122f3d8f4c196eda420f
     m_ValuePositions: 0000000004000000040000000b0000000f0000001300000014000000180000001c000000280000002c000000
@@ -19941,13 +20291,13 @@ MonoBehaviour:
     m_UnityObjects:
     - {fileID: 4053522464208380}
     - {fileID: 4422854958098486}
-    m_Version: 2.0.5
+    m_Version: 2.0.7
   - m_ObjectType: Opsive.UltimateCharacterController.Camera.ViewTypes.Transition
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c7ed219786679b559b0b873350d4bc34da7cbfb89
     m_ValuePositions: 0000000004000000040000000b0000000f000000130000001400000018000000240000002800000034000000
     m_Values: 0100000044656661756c74ffffffff0000000001cdcc4c3e0000000000000000000000bfcdcc4c3e0000000000000000000000bfcdcc4c3e
     m_UnityObjects: []
-    m_Version: 2.0.5
+    m_Version: 2.0.7
   m_CanChangePerspectives: 1
   m_CanZoom: 1
   m_ZoomState: Zoom
