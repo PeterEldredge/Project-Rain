@@ -1,0 +1,11 @@
+//BEFORE GAME BUILDS
+-Disable sprint
+-Disable running
+
+//BUGS
+-Hitting escape won't remove the mouse cursor
+-Sliding down steps
+
+//TODO
+-Set light to fire
+
