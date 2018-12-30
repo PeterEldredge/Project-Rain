@@ -540,6 +540,7 @@ PlayerSettings:
   webGLLinkerTarget: 1
   scriptingDefineSymbols:
     1: FIRST_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER
+    13: FIRST_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
