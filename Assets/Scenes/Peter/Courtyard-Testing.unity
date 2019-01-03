@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.95
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1315625, g: 0.14536333, b: 0.15751979, a: 0.95}
+  m_IndirectSpecularColor: {r: 0.13173404, g: 0.14535293, b: 0.15762323, a: 0.95}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -27232,7 +27232,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: e4cd7668215948b4cb6e4d01fe90eb65, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: e87cc9bb115ec7c43989462340c46c95, type: 2}
 --- !u!135 &998326745
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -64101,6 +64101,12 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 114459461586772338, guid: a95e6510611dc5343ae74bf6c076d1f0,
+        type: 2}
+      propertyPath: initialDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: e87cc9bb115ec7c43989462340c46c95,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 114379046445610726, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
     - {fileID: 114271613270633912, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
