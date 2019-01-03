@@ -210,7 +210,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 0
         destinationConversationID: 1
-        destinationDialogueID: 13
+        destinationDialogueID: 11
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -222,14 +222,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
+        x: 480
         y: 20
         width: 160
         height: 30
     - id: 1
       fields:
       - title: Title
-        value: Hello
+        value: Start
         type: 0
         typeString: 
       - title: Pictures
@@ -253,7 +253,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hello
+        value: You want some zub grub? One tub for a dollar.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -283,13 +283,25 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 1
         destinationConversationID: 1
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 1
+        destinationConversationID: 1
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 1
         destinationConversationID: 1
-        destinationDialogueID: 2
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 1
+        destinationConversationID: 1
+        destinationDialogueID: 7
         isConnector: 0
         priority: 2
       conditionsString: Variable["BehindCounter"] == false
@@ -301,14 +313,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
+        x: 210
         y: 70
         width: 160
         height: 30
     - id: 2
       fields:
       - title: Title
-        value: Goodbye
+        value: The fuck is a zub grub
         type: 0
         typeString: 
       - title: Pictures
@@ -332,74 +344,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Goodbye
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 210
-        y: 620
-        width: 160
-        height: 30
-    - id: 3
-      fields:
-      - title: Title
-        value: I like dick
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: I like dick
+        value: The fuck is a zub grub?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -427,9 +372,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 3
+        originDialogueID: 2
         destinationConversationID: 1
-        destinationDialogueID: 4
+        destinationDialogueID: 6
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -445,10 +390,83 @@ MonoBehaviour:
         y: 120
         width: 160
         height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 99 cents
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Your sign says 99 cents.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 3
+        destinationConversationID: 1
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 160
+        height: 30
     - id: 4
       fields:
       - title: Title
-        value: But I like dick more
+        value: I don't have a dollar
         type: 0
         typeString: 
       - title: Pictures
@@ -460,11 +478,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -472,7 +490,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: But I like dick more
+        value: I don't have any money.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -502,13 +520,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 4
         destinationConversationID: 1
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 4
-        destinationConversationID: 1
-        destinationDialogueID: 2
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -521,13 +533,13 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 75
-        y: 170
+        y: 220
         width: 160
         height: 30
     - id: 5
       fields:
       - title: Title
-        value: Its not possible to like more dick than me
+        value: No friends
         type: 0
         typeString: 
       - title: Pictures
@@ -539,11 +551,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -551,7 +563,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Its not possible to like dick more than me
+        value: You don't have many friends do you? Do you want it or not asshole?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -581,7 +593,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 5
         destinationConversationID: 1
-        destinationDialogueID: 6
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -593,14 +605,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 220
+        x: 264
+        y: 170
         width: 160
         height: 30
     - id: 6
       fields:
       - title: Title
-        value: Asshole Seperation
+        value: Zub grub
         type: 0
         typeString: 
       - title: Pictures
@@ -624,7 +636,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I dream of dick every night
+        value: It's a zub that you grub dumb ass, I'll even throw in a special disabled
+          discount for you, 99 cents take it or leave it.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -654,13 +667,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 6
         destinationConversationID: 1
-        destinationDialogueID: 7
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 6
-        destinationConversationID: 1
-        destinationDialogueID: 2
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -672,14 +679,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 270
+        x: 48
+        y: 170
         width: 160
         height: 30
     - id: 7
       fields:
       - title: Title
-        value: Suck Dick
+        value: DirtyBurger
         type: 0
         typeString: 
       - title: Pictures
@@ -703,7 +710,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well I suck dick every night
+        value: Na can you point me to the nearest Dirty Burger though?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -745,14 +752,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 320
+        x: 570
+        y: 120
         width: 160
         height: 30
     - id: 8
       fields:
       - title: Title
-        value: Suck your dick
+        value: Fuck off
         type: 0
         typeString: 
       - title: Pictures
@@ -776,7 +783,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well I'll suck your dick right now thats how much I like dick
+        value: Yeah, you see that balcony over there, just jump off it and it's right
+          at the bottom.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -809,12 +817,6 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      - originConversationID: 1
-        originDialogueID: 8
-        destinationConversationID: 1
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -824,14 +826,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 370
+        x: 480
+        y: 170
         width: 160
         height: 30
     - id: 9
       fields:
       - title: Title
-        value: Suck my dick
+        value: Dead carcass
         type: 0
         typeString: 
       - title: Pictures
@@ -843,11 +845,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -855,7 +857,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I'll suck your dick harder than youll suck mine
+        value: And their burgers taste like a dead carcass covered in shit.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -881,13 +883,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 9
-        destinationConversationID: 1
-        destinationDialogueID: 10
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -897,14 +893,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 420
+        x: 345
+        y: 220
         width: 160
         height: 30
     - id: 10
       fields:
       - title: Title
-        value: Prune
+        value: Fuck off
         type: 0
         typeString: 
       - title: Pictures
@@ -928,8 +924,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Your dick will be as wrinkly as a raisin by the time I am done sucking
-          it
+        value: Then go do me a favor and fuck off.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -955,19 +950,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 10
-        destinationConversationID: 1
-        destinationDialogueID: 11
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 10
-        destinationConversationID: 1
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -977,14 +960,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 470
+        x: 480
+        y: 270
         width: 160
         height: 30
     - id: 11
       fields:
       - title: Title
-        value: No more dick
+        value: Behind me
         type: 0
         typeString: 
       - title: Pictures
@@ -996,11 +979,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1008,7 +991,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You won't have a dick by the time I'm done sucking
+        value: Why are you back here?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1038,10 +1021,16 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 11
         destinationConversationID: 1
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 11
+        destinationConversationID: 1
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: Variable["BehindCounter"] == true
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1050,14 +1039,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 520
+        x: 750
+        y: 70
         width: 160
         height: 30
     - id: 12
       fields:
       - title: Title
-        value: Weird
+        value: Booty
         type: 0
         typeString: 
       - title: Pictures
@@ -1069,11 +1058,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1081,7 +1070,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Alright you're kinda fuckin weird
+        value: Because I wanted to see that booty.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1111,7 +1100,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 12
         destinationConversationID: 1
-        destinationDialogueID: 2
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1123,14 +1112,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 570
+        x: 930
+        y: 120
         width: 160
         height: 30
     - id: 13
       fields:
       - title: Title
-        value: Ass
+        value: Food
         type: 0
         typeString: 
       - title: Pictures
@@ -1142,11 +1131,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1154,7 +1143,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Are you checking out my ass you dirty boy
+        value: I wanted to make sure it was some quality zub grub.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1184,22 +1173,10 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 13
         destinationConversationID: 1
-        destinationDialogueID: 14
+        destinationDialogueID: 16
         isConnector: 0
         priority: 2
-      - originConversationID: 1
-        originDialogueID: 13
-        destinationConversationID: 1
-        destinationDialogueID: 3
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 13
-        destinationConversationID: 1
-        destinationDialogueID: 2
-        isConnector: 0
-        priority: 2
-      conditionsString: Variable["BehindCounter"] == true
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1208,14 +1185,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 70
+        x: 750
+        y: 120
         width: 160
         height: 30
     - id: 14
       fields:
       - title: Title
-        value: I like ass
+        value: Pervert
         type: 0
         typeString: 
       - title: Pictures
@@ -1227,11 +1204,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1239,7 +1216,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You got me, I like ass more than I like dick
+        value: You are a fuckin pervert.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1272,7 +1249,7 @@ MonoBehaviour:
         destinationDialogueID: 15
         isConnector: 0
         priority: 2
-      conditionsString: Variable["BehindCounter"] == true
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1281,14 +1258,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 120
+        x: 912
+        y: 170
         width: 160
         height: 30
     - id: 15
       fields:
       - title: Title
-        value: Good taste
+        value: I like that
         type: 0
         typeString: 
       - title: Pictures
@@ -1312,7 +1289,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Ah, so you are a man of good taste I see
+        value: But I like that.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1338,13 +1315,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 15
-        destinationConversationID: 1
-        destinationDialogueID: 16
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: 
       userScript: 
       onExecute:
@@ -1354,14 +1325,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 170
+        x: 885
+        y: 220
         width: 160
         height: 30
     - id: 16
       fields:
       - title: Title
-        value: Ass later
+        value: Good zub
         type: 0
         typeString: 
       - title: Pictures
@@ -1385,8 +1356,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Come to my house after my shift and you can have all the ass you want,
-          maybe I'll even throw some dick in
+        value: 'Yeah well as you can see we got the good shit. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1428,14 +1398,14 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 220
+        x: 696
+        y: 170
         width: 160
         height: 30
     - id: 17
       fields:
       - title: Title
-        value: Later
+        value: Come around front
         type: 0
         typeString: 
       - title: Pictures
@@ -1447,11 +1417,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1459,7 +1429,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I'll see you later then big boy
+        value: 'Now come around front because right now I physically cannot turn around.
+
+'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1495,12 +1467,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 270
+        x: 615
+        y: 220
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.01
+    canvasZoom: 0.90000004
   syncInfo:
     syncActors: 0
     syncItems: 0
