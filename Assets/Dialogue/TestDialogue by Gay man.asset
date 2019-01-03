@@ -532,8 +532,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 220
+        x: 130.55556
+        y: 286.6667
         width: 160
         height: 30
     - id: 5
@@ -563,7 +563,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well the price is a dollar
+        value: Well the price is a dollar.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -642,8 +642,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Logic would indicate that it's a Zub, that you fucking grub. Are you
-          gonna keep staring like a mongoloid? Or are you gonna buy something.
+        value: Logic would indicate that it's a Zub, that you fucking grub.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -673,7 +672,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 6
         destinationConversationID: 1
-        destinationDialogueID: 4
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -685,8 +684,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 48
-        y: 170
+        x: 49.234573
+        y: 171.23459
         width: 160
         height: 30
     - id: 7
@@ -789,8 +788,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yeah, you see that balcony over there? Just jump off it and it's right
-          at the bottom.
+        value: Yeah, you see that balcony over there?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -820,7 +818,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 8
         destinationConversationID: 1
-        destinationDialogueID: 9
+        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -899,8 +897,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 463.5185
-        y: 286.6667
+        x: 522.7777
+        y: 343.45682
         width: 160
         height: 30
     - id: 10
@@ -1077,7 +1075,7 @@ MonoBehaviour:
         typeString: 
       - title: Dialogue Text
         value: You know, something about the way you're standing just gets me all
-          riled up
+          riled up.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1436,9 +1434,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Now come around front because right now I physically cannot turn around.
-
-'
+        value: Now come around front because I physically cannot turn around.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1690,6 +1686,153 @@ MonoBehaviour:
         serializedVersion: 2
         x: 415.8025
         y: 407.03708
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: Jump
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Just jump off it and it's right at the bottom.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 21
+        destinationConversationID: 1
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 471.35797
+        y: 270.6173
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: Mongoloid
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Now, are you gonna keep staring like a mongoloid? Or are you gonna
+          buy something.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 22
+        destinationConversationID: 1
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 48
+        y: 221.23459
         width: 160
         height: 30
     canvasScrollPosition: {x: 0, y: 4.938263}
