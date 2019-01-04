@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.95
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1315625, g: 0.14536333, b: 0.15751979, a: 0.95}
+  m_IndirectSpecularColor: {r: 0.13173404, g: 0.14535293, b: 0.15762323, a: 0.95}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17280,6 +17280,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114895095479854702, guid: 3812131e39de28246ada6b8d00993be3,
+        type: 2}
+      propertyPath: conversation
+      value: Asshole Blocking Path
+      objectReference: {fileID: 0}
+    - target: {fileID: 114895095479854702, guid: 3812131e39de28246ada6b8d00993be3,
+        type: 2}
+      propertyPath: conversationActor
+      value: 
+      objectReference: {fileID: 390771451}
+    - target: {fileID: 114895095479854702, guid: 3812131e39de28246ada6b8d00993be3,
+        type: 2}
+      propertyPath: conversationConversant
+      value: 
+      objectReference: {fileID: 186975625}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3812131e39de28246ada6b8d00993be3, type: 2}
   m_IsPrefabAsset: 0
