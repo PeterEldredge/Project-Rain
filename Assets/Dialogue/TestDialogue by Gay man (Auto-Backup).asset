@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: TestDialogue by Gay man
+  m_Name: TestDialogue by Gay man (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -56,7 +56,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: XJ-20Z
+      value: NPC
       type: 0
       typeString: 
     - title: Pictures
@@ -490,7 +490,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Sorry, I don't have any money.
+        value: I don't have any money.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -532,8 +532,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 595.7962
-        y: 550.463
+        x: 583.7962
+        y: 503.79623
         width: 160
         height: 30
     - id: 5
@@ -593,13 +593,13 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 5
         destinationConversationID: 1
-        destinationDialogueID: 18
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 5
         destinationConversationID: 1
-        destinationDialogueID: 4
+        destinationDialogueID: 18
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -715,7 +715,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Nah, can you point me to the nearest Dirty Burger though?
+        value: Na can you point me to the nearest Dirty Burger though?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -758,7 +758,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1023.2407
-        y: 335.7963
+        y: 337.1296
         width: 160
         height: 30
     - id: 8
@@ -788,7 +788,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Why are you asking me?
+        value: You see that balcony over there?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -821,12 +821,6 @@ MonoBehaviour:
         destinationDialogueID: 21
         isConnector: 0
         priority: 2
-      - originConversationID: 1
-        originDialogueID: 8
-        destinationConversationID: 1
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -836,8 +830,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 938.57404
-        y: 393.79623
+        x: 933.24066
+        y: 387.12955
         width: 160
         height: 30
     - id: 9
@@ -867,8 +861,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Dirty Burger''s meat contains 4.5% cow meat. 6.5% Zub meat. And 89%
-          unkown meat source. Enjoy. '
+        value: And their burgers taste like a dead carcass covered in shit.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -904,8 +897,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 998.68506
-        y: 601.9196
+        x: 976.01843
+        y: 560.5863
         width: 160
         height: 30
     - id: 10
@@ -935,8 +928,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Then move aside. Make way for the customers who can afford the price
-          of one dollar.
+        value: Then go do me a favor and fuck off.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1082,8 +1074,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You know, something about the way you're standing just makes me feel
-          all tingly inside.
+        value: You know, something about the way you're standing just gets me all
+          riled up.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1229,7 +1221,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Error* Sequence not available for playback'
+        value: You are a fuckin pervert.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1302,7 +1294,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Please come around front. '
+        value: But I like that.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1369,8 +1361,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Our food scored a 66 out of 200 on the city council''s regulation
-          chart. '
+        value: 'Yeah well as you can see we got the good shit. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1443,7 +1434,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Please come around front. '
+        value: Now come around front because I physically cannot turn around.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1479,8 +1470,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1191.4631
-        y: 457.18503
+        x: 1082.1298
+        y: 438.5184
         width: 160
         height: 30
     - id: 18
@@ -1583,8 +1574,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Maybe you can find the extra penny somewhere. Trying jumping off the
-          balcony to look for it.
+        value: 
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1657,7 +1647,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'If you find it. I''ll still be here. Waiting. '
+        value: Cheap bastard. Get Lost.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1693,8 +1683,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 799.70984
-        y: 646.83344
+        x: 869.04315
+        y: 624.16675
         width: 160
         height: 30
     - id: 21
@@ -1712,11 +1702,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1724,7 +1714,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Because this Zub-Grub looks kinda nasty.
+        value: Jump off of it. Dirty Burger is right at the bottom.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1797,7 +1787,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'My scan indicates that this tenant complex is below average intelligence.
+        value: 'My scans indicate that this tenant complex is below average intelligence.
           But you seem to be even lower. '
         type: 0
         typeString: 
@@ -1828,13 +1818,13 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 22
         destinationConversationID: 1
-        destinationDialogueID: 23
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 22
         destinationConversationID: 1
-        destinationDialogueID: 4
+        destinationDialogueID: 23
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -1847,7 +1837,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 501.24066
-        y: 437.03073
+        y: 438.3641
         width: 160
         height: 30
     - id: 23
@@ -1919,8 +1909,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 460.5493
-        y: 505.10474
+        x: 475.21594
+        y: 562.4381
         width: 160
         height: 30
     - id: 24
@@ -1950,7 +1940,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'A brain, yes... Money, no. '
+        value: 'A brain, yes...Money, no. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1990,80 +1980,7 @@ MonoBehaviour:
         y: 649.03436
         width: 160
         height: 30
-    - id: 25
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: I'm just not really in the mood for Zub Grub.
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 25
-        destinationConversationID: 1
-        destinationDialogueID: 9
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1099.9075
-        y: 515.1296
-        width: 160
-        height: 30
-    canvasScrollPosition: {x: 398.22086, y: 172.31253}
+    canvasScrollPosition: {x: 110.220856, y: 178.97922}
     canvasZoom: 0.75
   syncInfo:
     syncActors: 0
