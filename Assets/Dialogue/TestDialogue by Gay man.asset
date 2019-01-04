@@ -961,7 +961,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Then move aside. Make way for customers with enough money.
+        value: 'Then move aside. Despite the economic state of this tenant complex,
+          some people can actually afford to eat here. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -997,8 +998,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 652.9937
-        y: 594.43823
+        x: 625.721
+        y: 602.0139
         width: 160
         height: 30
     - id: 11
@@ -1067,6 +1068,12 @@ MonoBehaviour:
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
+      - originConversationID: 1
+        originDialogueID: 11
+        destinationConversationID: 1
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
       conditionsString: Variable["BehindCounter"] == true
       userScript: 
       onExecute:
@@ -1107,8 +1114,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You know, something about the way you're standing just makes me feel
-          all tingly inside.
+        value: 'You know, something about the way you''re standing just turns me on. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1150,8 +1156,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1528.6965
-        y: 297.7357
+        x: 1505.6196
+        y: 346.45364
         width: 160
         height: 30
     - id: 13
@@ -1223,8 +1229,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1348.6958
-        y: 297.7357
+        x: 1308.9521
+        y: 306.71002
         width: 160
         height: 30
     - id: 14
@@ -1254,7 +1260,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '*Error* Sequence not available for playback'
+        value: '*Error* Sequence not available for playback.'
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1296,8 +1302,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1510.6963
-        y: 347.73563
+        x: 1493.6194
+        y: 414.86383
         width: 160
         height: 30
     - id: 15
@@ -1363,8 +1369,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1483.6965
-        y: 397.73563
+        x: 1492.6708
+        y: 475.94073
         width: 160
         height: 30
     - id: 16
@@ -1437,8 +1443,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1294.6953
-        y: 347.73563
+        x: 1294.6956
+        y: 370.81256
         width: 160
         height: 30
     - id: 17
@@ -1504,8 +1510,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1336.9176
-        y: 417.7911
+        x: 1279.2253
+        y: 445.99637
         width: 160
         height: 30
     - id: 18
@@ -1608,81 +1614,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Maybe you can find the extra penny somewhere. Trying jumping off the
-          balcony to look for it.
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 19
-        destinationConversationID: 1
-        destinationDialogueID: 20
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 806.3047
-        y: 591.00134
-        width: 160
-        height: 30
-    - id: 20
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 'If you find it. I''ll still be here. Waiting. '
+        value: 'Maybe if you wipe my mechanical ass for me, a lucky penny might fall
+          out. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -1718,8 +1651,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 820.922
-        y: 687.74243
+        x: 805.0226
+        y: 591.00134
         width: 160
         height: 30
     - id: 21
@@ -3026,8 +2959,222 @@ MonoBehaviour:
         y: 972.26514
         width: 160
         height: 30
-    canvasScrollPosition: {x: 110.60608, y: 232.19922}
-    canvasZoom: 0.6600001
+    - id: 39
+      fields:
+      - title: Title
+        value: Booty
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'I''m here to wipe your ass. I need that lucky penny. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 39
+        destinationConversationID: 1
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1739.2311
+        y: 342.63742
+        width: 160
+        height: 30
+    - id: 40
+      fields:
+      - title: Title
+        value: Booty
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'That was sarcasm. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 40
+        destinationConversationID: 1
+        destinationDialogueID: 41
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1758.7358
+        y: 438.3298
+        width: 160
+        height: 30
+    - id: 41
+      fields:
+      - title: Title
+        value: Booty
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Either my grasp of the english language is slipping, or you are even
+          more brain dead than I had initially suspected.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1781.7957
+        y: 520.9964
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 681.7956, y: 70.99637}
+    canvasZoom: 0.8999999
   - id: 2
     fields:
     - title: Title
@@ -3170,7 +3317,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hey buddy.
+        value: Hey buddy...
         type: 0
         typeString: 
       - title: Parenthetical
@@ -7468,8 +7615,8 @@ MonoBehaviour:
         y: 1321.9886
         width: 160
         height: 30
-    canvasScrollPosition: {x: 501.74716, y: 442.46423}
-    canvasZoom: 0.3400001
+    canvasScrollPosition: {x: 1265.5752, y: 417.38306}
+    canvasZoom: 0.93999994
   syncInfo:
     syncActors: 0
     syncItems: 0
