@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: TestDialogue by Gay man (Auto-Backup)
+  m_Name: TestDialogue by Gay man
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -2572,8 +2572,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1873.4094
-        y: 744.1906
+        x: 1913.1987
+        y: 772.1906
         width: 160
         height: 30
     - id: 6
@@ -2872,8 +2872,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2017.0537
-        y: 831.9002
+        x: 2056.843
+        y: 859.9002
         width: 160
         height: 30
     - id: 10
@@ -2946,8 +2946,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1808.0957
-        y: 832.38403
+        x: 1847.885
+        y: 860.38403
         width: 160
         height: 30
     - id: 11
@@ -2977,8 +2977,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, no... But it's kinda hard to keep it a damn secret, when I don't
-          know what the hell this guy actually looks like.
+        value: Well, no... But it's kinda hard to keep it a secret, when I don't know
+          what the hell this guy actually looks like.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3020,8 +3020,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2005.4896
-        y: 919.1574
+        x: 2045.279
+        y: 947.1574
         width: 160
         height: 30
     - id: 12
@@ -3051,8 +3051,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, no... But it's kinda hard to keep it a damn secret, when I don't
-          know what the hell this guy actually looks like.
+        value: Well, no... But it's kinda hard to keep it a secret, when I don't know
+          what the hell this guy actually looks like.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3082,7 +3082,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 12
         destinationConversationID: 2
-        destinationDialogueID: 26
+        destinationDialogueID: 8
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3094,7 +3094,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1539.5413
+        x: 1538.2255
         y: 903.8282
         width: 160
         height: 30
@@ -3198,7 +3198,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, I guess I already told you, so there's no use keeping it a secret.
+        value: I guess I already kinda told you. So there's no use keeping it a secret.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -3240,7 +3240,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1247.0042
+        x: 1245.6885
         y: 894.8729
         width: 160
         height: 30
@@ -4057,142 +4057,6 @@ MonoBehaviour:
         y: 1476.4266
         width: 160
         height: 30
-    - id: 26
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 'Well. If I encounter anyone out there slaying some Jans, I''ll let
-          him know you''re waiting. '
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1516.5272
-        y: 1015.2845
-        width: 160
-        height: 30
-    - id: 27
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 'Well. If I encounter anyone out there slaying some Jans, I''ll let
-          him know you''re waiting. '
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 2268.9497
-        y: 1065.2338
-        width: 160
-        height: 30
     - id: 28
       fields:
       - title: Title
@@ -4220,7 +4084,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'According to the Robot Vendor. '
+        value: According to the Robot Vendor, Yes.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4250,7 +4114,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 28
         destinationConversationID: 2
-        destinationDialogueID: 51
+        destinationDialogueID: 62
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4323,7 +4187,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 29
         destinationConversationID: 2
-        destinationDialogueID: 33
+        destinationDialogueID: 35
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4335,8 +4199,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2191.064
-        y: 992.0173
+        x: 2230.8533
+        y: 1020.0173
         width: 160
         height: 30
     - id: 30
@@ -4552,79 +4416,6 @@ MonoBehaviour:
         y: 1498.5671
         width: 160
         height: 30
-    - id: 33
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 3
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: What are you doing out here anyway? I haven't seen you here before.
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 2
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 2
-        originDialogueID: 33
-        destinationConversationID: 2
-        destinationDialogueID: 35
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 2519.9487
-        y: 1059.697
-        width: 160
-        height: 30
     - id: 34
       fields:
       - title: Title
@@ -4694,8 +4485,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2358.8445
-        y: 1318.0992
+        x: 2237.5808
+        y: 1308.2043
         width: 160
         height: 30
     - id: 35
@@ -4725,7 +4516,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, I guess I already told you, so there's no use keeping it a secret.
+        value: I guess I already kinda told you. So there's no use keeping it a secret.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -4767,8 +4558,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2509.6672
-        y: 1146.7166
+        x: 2345.122
+        y: 1131.5587
         width: 160
         height: 30
     - id: 36
@@ -4847,8 +4638,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2499.7776
-        y: 1226.459
+        x: 2378.514
+        y: 1216.5642
         width: 160
         height: 30
     - id: 37
@@ -4920,8 +4711,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2558.6892
-        y: 1320.3304
+        x: 2437.4255
+        y: 1310.4355
         width: 160
         height: 30
     - id: 38
@@ -5005,8 +4796,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2218.8552
-        y: 1388.0353
+        x: 2121.5916
+        y: 1382.1404
         width: 160
         height: 30
     - id: 39
@@ -5084,8 +4875,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2653.0657
-        y: 1395.9303
+        x: 2531.802
+        y: 1386.0354
         width: 160
         height: 30
     - id: 40
@@ -5157,8 +4948,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2026.4287
-        y: 1459.6141
+        x: 1929.165
+        y: 1453.7192
         width: 160
         height: 30
     - id: 41
@@ -5230,8 +5021,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2222.92
-        y: 1464.5829
+        x: 2125.6562
+        y: 1458.688
         width: 160
         height: 30
     - id: 42
@@ -5298,8 +5089,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2057.3354
-        y: 1579.5178
+        x: 1960.0718
+        y: 1573.623
         width: 160
         height: 30
     - id: 43
@@ -5366,8 +5157,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2597.5186
-        y: 1471.7255
+        x: 2476.255
+        y: 1461.8306
         width: 160
         height: 30
     - id: 44
@@ -5439,8 +5230,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2722.9338
-        y: 1533.9846
+        x: 2601.6702
+        y: 1524.0898
         width: 160
         height: 30
     - id: 45
@@ -5512,8 +5303,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2748.6482
-        y: 1631.1274
+        x: 2627.3845
+        y: 1621.2327
         width: 160
         height: 30
     - id: 46
@@ -5580,8 +5371,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2767.2195
-        y: 1728.2703
+        x: 2645.9558
+        y: 1718.3755
         width: 160
         height: 30
     - id: 47
@@ -5611,7 +5402,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'According to the Robot Vendor. '
+        value: According to the Robot Vendor, Yes.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5653,8 +5444,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2417.5186
-        y: 1464.6283
+        x: 2296.255
+        y: 1454.7334
         width: 160
         height: 30
     - id: 48
@@ -5726,8 +5517,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2255.3164
-        y: 1574.3457
+        x: 2134.0527
+        y: 1564.4509
         width: 160
         height: 30
     - id: 49
@@ -5799,8 +5590,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2254.991
-        y: 1662.3511
+        x: 2133.7273
+        y: 1652.4563
         width: 160
         height: 30
     - id: 50
@@ -5866,8 +5657,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2286.3342
-        y: 1750.4108
+        x: 2165.0706
+        y: 1740.5159
         width: 160
         height: 30
     - id: 51
@@ -5897,7 +5688,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, if you find the Janslayer, tell him I would like to go inside
+        value: Anyway, if you find the Janslayer, tell him I would like to go inside
           soon.
         type: 0
         typeString: 
@@ -5934,8 +5725,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1195.9497
-        y: 1320.4783
+        x: 1255.3247
+        y: 1425.1658
         width: 160
         height: 30
     - id: 52
@@ -5965,8 +5756,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, if you find the Janslayer, tell him I would like to go inside
-          soon.
+        value: Well, if it makes you feel better, I also think you're retarded.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -5992,7 +5782,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 52
+        destinationConversationID: 2
+        destinationDialogueID: 61
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -6002,8 +5798,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2450.7964
-        y: 1566.6322
+        x: 2329.5327
+        y: 1556.7373
         width: 160
         height: 30
     - id: 53
@@ -6066,6 +5862,12 @@ MonoBehaviour:
         destinationDialogueID: 54
         isConnector: 0
         priority: 2
+      - originConversationID: 2
+        originDialogueID: 53
+        destinationConversationID: 2
+        destinationDialogueID: 55
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -6075,8 +5877,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1802.9899
-        y: 919.1597
+        x: 1842.779
+        y: 947.1597
         width: 160
         height: 30
     - id: 54
@@ -6132,7 +5934,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 54
+        destinationConversationID: 2
+        destinationDialogueID: 59
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -6142,8 +5950,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1911.9076
-        y: 1003.5066
+        x: 1982.8445
+        y: 1042.9819
         width: 160
         height: 30
     - id: 55
@@ -6173,8 +5981,227 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Well. If I encounter anyone out there slaying some Jans, I''ll let
-          him know you''re waiting. '
+        value: I'm not exactly sure what there is to try. You're just standing here
+          and asking everybody if they want your drugs.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 55
+        destinationConversationID: 2
+        destinationDialogueID: 56
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1781.0515
+        y: 1044.314
+        width: 160
+        height: 30
+    - id: 56
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay first, It's a fucking brain harvesting tool.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 56
+        destinationConversationID: 2
+        destinationDialogueID: 57
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1746.7004
+        y: 1141.7438
+        width: 160
+        height: 30
+    - id: 57
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Second... Fuck, I shouldn't have said that.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 57
+        destinationConversationID: 2
+        destinationDialogueID: 58
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1728.096
+        y: 1246.3949
+        width: 160
+        height: 30
+    - id: 58
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Third... Just find him for me, will ya?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -6210,12 +6237,295 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1715.0326
-        y: 1009.7566
+        x: 1725.7704
+        y: 1353.3717
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1274.72, y: 675.3816}
-    canvasZoom: 0.63999987
+    - id: 59
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: How about you try then? If you find him for me, I'll give ya a real
+          crisp pat on the back.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 59
+        destinationConversationID: 2
+        destinationDialogueID: 60
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2023.4451
+        y: 1144.0693
+        width: 160
+        height: 30
+    - id: 60
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Asshole.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2014.1425
+        y: 1274.302
+        width: 160
+        height: 30
+    - id: 61
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Anyway, if you find the Janslayer, tell him I would like to go inside
+          soon.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2375.5698
+        y: 1621.9886
+        width: 160
+        height: 30
+    - id: 62
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Well, if it makes you feel better, I also think you''re a fucking
+          retard. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 62
+        destinationConversationID: 2
+        destinationDialogueID: 51
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1209.9447
+        y: 1321.9886
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 497.83215, y: 652.3561}
+    canvasZoom: 0.3400001
   syncInfo:
     syncActors: 0
     syncItems: 0
