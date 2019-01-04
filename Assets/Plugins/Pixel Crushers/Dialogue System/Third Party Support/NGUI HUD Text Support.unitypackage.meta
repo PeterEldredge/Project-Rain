@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: a7df935442a19c84894b49559613c15a
-NativeFormatImporter:
+guid: d4762985b08cf424d8a389bd106e9c41
+labels:
+- Hud
+- Hudtext
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

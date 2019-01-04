@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: a7df935442a19c84894b49559613c15a
-NativeFormatImporter:
+guid: 41dc081f41d06ad4cb3a976e3bc784ff
+labels:
+- Gameflow
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

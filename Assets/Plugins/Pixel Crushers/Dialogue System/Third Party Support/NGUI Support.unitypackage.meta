@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: a7df935442a19c84894b49559613c15a
-NativeFormatImporter:
+guid: 82f4200e470c7a2459f54ef829fd130b
+labels:
+- Ngui
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
