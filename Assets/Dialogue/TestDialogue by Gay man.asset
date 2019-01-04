@@ -935,8 +935,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Then move aside. Make way for the customers who can afford the price
-          of one dollar.
+        value: Then move aside. Make way for customers with enough money.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -973,7 +972,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 652.9937
-        y: 595.7715
+        y: 594.43823
         width: 160
         height: 30
     - id: 11
