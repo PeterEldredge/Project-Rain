@@ -1634,7 +1634,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Maybe if you wipe my mechanical ass for me, a lucky penny might fall
+        value: 'Maybe if you wipe my mechanical ass for me, a lucky penny will fall
           out. '
         type: 0
         typeString: 
@@ -3193,7 +3193,7 @@ MonoBehaviour:
         y: 520.9964
         width: 160
         height: 30
-    canvasScrollPosition: {x: 681.7956, y: 70.99637}
+    canvasScrollPosition: {x: 585.1289, y: 359.88528}
     canvasZoom: 0.8999999
   - id: 2
     fields:
