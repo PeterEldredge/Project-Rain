@@ -9626,7 +9626,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Oh, hey man. '
+        value: Watcha doin' back here?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9663,6 +9663,12 @@ MonoBehaviour:
         originDialogueID: 1
         destinationConversationID: 4
         destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 1
+        destinationConversationID: 4
+        destinationDialogueID: 4
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9705,7 +9711,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Hey... man. What's up?
+        value: 'Uhhh...I''m lost. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9735,7 +9741,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 2
         destinationConversationID: 4
-        destinationDialogueID: 5
+        destinationDialogueID: 7
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9747,8 +9753,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2062.106
-        y: 528.5141
+        x: 1924.606
+        y: 520.7016
         width: 160
         height: 30
     - id: 3
@@ -9778,7 +9784,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Whatcha...got...over...there?
+        value: 'Just...looking around. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9808,7 +9814,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 3
         destinationConversationID: 4
-        destinationDialogueID: 4
+        destinationDialogueID: 5
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9820,8 +9826,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2370.109
-        y: 528.63916
+        x: 2497.6328
+        y: 516.8603
         width: 160
         height: 30
     - id: 4
@@ -9839,11 +9845,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9851,7 +9857,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Couple of bodies. I think 6, no... 7 in total. '
+        value: 'Sorry! Wrong house. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9881,7 +9887,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 4
         destinationConversationID: 4
-        destinationDialogueID: 7
+        destinationDialogueID: 6
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9893,8 +9899,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2494.2192
-        y: 608.33435
+        x: 2227.845
+        y: 535.38245
         width: 160
         height: 30
     - id: 5
@@ -9924,7 +9930,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Nothing. Finishing with these bodies.
+        value: Did you find what you were looking for?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -9954,7 +9960,19 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 5
         destinationConversationID: 4
-        destinationDialogueID: 6
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 5
+        destinationConversationID: 4
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 5
+        destinationConversationID: 4
+        destinationDialogueID: 10
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9966,8 +9984,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1898.5042
-        y: 609.76294
+        x: 2676.823
+        y: 581.4265
         width: 160
         height: 30
     - id: 6
@@ -9985,11 +10003,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -9997,7 +10015,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Are any of them named Jan, perhaps?
+        value: 'Interesting. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10027,7 +10045,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 6
         destinationConversationID: 4
-        destinationDialogueID: 9
+        destinationDialogueID: 17
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10039,8 +10057,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1895.5371
-        y: 670.42224
+        x: 2226.7212
+        y: 620.8161
         width: 160
         height: 30
     - id: 7
@@ -10058,11 +10076,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10070,7 +10088,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Are any of them named Jan, perhaps?
+        value: You need any help finding your way home?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10100,7 +10118,13 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 7
         destinationConversationID: 4
-        destinationDialogueID: 9
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 7
+        destinationConversationID: 4
+        destinationDialogueID: 21
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10112,8 +10136,81 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2492.2407
-        y: 674.5981
+        x: 1866.4863
+        y: 619.7679
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Yep. I''m all good. See ya. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 8
+        destinationConversationID: 4
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2851.8232
+        y: 620.489
         width: 160
         height: 30
     - id: 9
@@ -10131,11 +10228,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10143,7 +10240,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'If you''re inferring that I''m the Janslayer, you are correct. '
+        value: No....?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10185,8 +10282,81 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1889.9246
-        y: 752.13904
+        x: 2497.1355
+        y: 622.0515
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Actually, I think I''m in the wrong house. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 10
+        destinationConversationID: 4
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2679.9482
+        y: 661.114
         width: 160
         height: 30
     - id: 11
@@ -10216,8 +10386,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Although I''d prefer to just be called Derran, if you want to continue
-          this conversation. '
+        value: 'HAH! I''m just messing with you. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10250,12 +10419,6 @@ MonoBehaviour:
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
-      - originConversationID: 4
-        originDialogueID: 11
-        destinationConversationID: 4
-        destinationDialogueID: 13
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -10265,8 +10428,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1881.5669
-        y: 831.8847
+        x: 2675.0698
+        y: 801.37885
         width: 160
         height: 30
     - id: 12
@@ -10284,11 +10447,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10296,7 +10459,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You don't like the nickname?
+        value: I don't mind. Don't get many visitors.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10326,7 +10489,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 12
         destinationConversationID: 4
-        destinationDialogueID: 14
+        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10338,8 +10501,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1773.331
-        y: 896.3477
+        x: 2678.0095
+        y: 876.6365
         width: 160
         height: 30
     - id: 13
@@ -10357,11 +10520,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10369,7 +10532,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Fine, but it is a pretty cool nickname. '
+        value: And you seem a bit more intelligent than the others.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10399,7 +10562,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 13
         destinationConversationID: 4
-        destinationDialogueID: 15
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10411,8 +10574,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2061.983
-        y: 868.6133
+        x: 2681.5823
+        y: 961.1198
         width: 160
         height: 30
     - id: 14
@@ -10430,11 +10593,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10442,93 +10605,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Think of it like this. What's the first thing that comes into your
-          mind when you hear someone talk about "The Janslayer"?
-        type: 0
-        typeString: 
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: 
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 4
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 4
-        originDialogueID: 14
-        destinationConversationID: 4
-        destinationDialogueID: 16
-        isConnector: 0
-        priority: 2
-      - originConversationID: 4
-        originDialogueID: 14
-        destinationConversationID: 4
-        destinationDialogueID: 17
-        isConnector: 0
-        priority: 2
-      - originConversationID: 4
-        originDialogueID: 14
-        destinationConversationID: 4
-        destinationDialogueID: 18
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      canvasRect:
-        serializedVersion: 2
-        x: 1633.6372
-        y: 954.3521
-        width: 160
-        height: 30
-    - id: 15
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 5
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: 'Not when you didn''t intend to get it. '
+        value: No....?
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10564,8 +10641,81 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2183.5962
-        y: 940.3058
+        x: 2257.8777
+        y: 1256.3911
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I just moved in.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 15
+        destinationConversationID: 4
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 2427.2307
+        y: 818.37213
         width: 160
         height: 30
     - id: 16
@@ -10595,7 +10745,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'You are the Janslayer. Slayer of all Jans. '
+        value: Nope. I'm good.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10625,7 +10775,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 16
         destinationConversationID: 4
-        destinationDialogueID: 19
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10637,8 +10787,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1378.8796
-        y: 1031.3505
+        x: 1708.0122
+        y: 716.1314
         width: 160
         height: 30
     - id: 17
@@ -10656,11 +10806,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10668,7 +10818,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well, you slay things. In this case, Jans.
+        value: 'I''ve seen all my neighbors. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10698,7 +10848,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 17
         destinationConversationID: 4
-        destinationDialogueID: 19
+        destinationDialogueID: 18
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10710,8 +10860,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1564.9255
-        y: 1049.3967
+        x: 2229.5244
+        y: 696.52454
         width: 160
         height: 30
     - id: 18
@@ -10729,11 +10879,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10741,8 +10891,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Honestly, I was never too sure what a "Jan" actually was. But I knew
-          you slayed them. '
+        value: 'And you ain''t one of them. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10772,13 +10921,19 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 18
         destinationConversationID: 4
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      - originConversationID: 4
+        originDialogueID: 18
+        destinationConversationID: 4
         destinationDialogueID: 19
         isConnector: 0
         priority: 2
       - originConversationID: 4
         originDialogueID: 18
         destinationConversationID: 4
-        destinationDialogueID: 23
+        destinationDialogueID: 20
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10790,8 +10945,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1749.2676
-        y: 1040.3058
+        x: 2236.9846
+        y: 763.40186
         width: 160
         height: 30
     - id: 19
@@ -10809,11 +10964,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10821,7 +10976,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Exactly. '
+        value: I'm legally retarded. Sorry.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10851,7 +11006,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 19
         destinationConversationID: 4
-        destinationDialogueID: 20
+        destinationDialogueID: 23
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10863,8 +11018,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1559.7153
-        y: 1137.3207
+        x: 2063.5464
+        y: 816.90234
         width: 160
         height: 30
     - id: 20
@@ -10882,11 +11037,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -10894,7 +11049,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Nothing more, nothing less. '
+        value: 'You sure about that? I''ve been living here for the past few months. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -10924,13 +11079,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 20
         destinationConversationID: 4
-        destinationDialogueID: 22
-        isConnector: 0
-        priority: 2
-      - originConversationID: 4
-        originDialogueID: 20
-        destinationConversationID: 4
-        destinationDialogueID: 21
+        destinationDialogueID: 23
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10942,8 +11091,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1557.1699
-        y: 1202.4879
+        x: 2247.81
+        y: 819.81244
         width: 160
         height: 30
     - id: 21
@@ -10973,7 +11122,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Sheesh. Little heavy on the existensial crisis for me.
+        value: 'Nah it''s cool, I...uh...gotta stop at the noodle stand. I''m, uh.
+          Just...just kill me if you need to. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11003,7 +11153,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 21
         destinationConversationID: 4
-        destinationDialogueID: 24
+        destinationDialogueID: 22
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11015,8 +11165,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1703.3236
-        y: 1254.136
+        x: 1954.7955
+        y: 712.8568
         width: 160
         height: 30
     - id: 22
@@ -11034,11 +11184,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -11046,8 +11196,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well how did you get the nickname? I mean, there has to be a little
-          more than just killing a person named Jan.
+        value: 'HAH! I''m just messing with you. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11089,8 +11238,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1411.0159
-        y: 1266.2241
+        x: 1817.8156
+        y: 826.06616
         width: 160
         height: 30
     - id: 23
@@ -11120,8 +11269,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'They were people. Who just happened to be named Jan. But now that''s
-          all I am. '
+        value: 'HAH! I''m just messing with you. '
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11151,7 +11299,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 23
         destinationConversationID: 4
-        destinationDialogueID: 20
+        destinationDialogueID: 24
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11163,8 +11311,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1750.3462
-        y: 1139.231
+        x: 2242.4734
+        y: 894.6081
         width: 160
         height: 30
     - id: 24
@@ -11194,7 +11342,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Well I'm sorry that I wasn't able to entertain you.
+        value: I don't mind. Don't get many visitors.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11224,7 +11372,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 24
         destinationConversationID: 4
-        destinationDialogueID: 22
+        destinationDialogueID: 26
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11236,8 +11384,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1752.0834
-        y: 1344.3165
+        x: 2243.0938
+        y: 960.86285
         width: 160
         height: 30
     - id: 25
@@ -11267,7 +11415,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'About 4 years back, I was out on one of my nightly routes. '
+        value: I don't mind. Don't get many visitors.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11297,7 +11445,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 25
         destinationConversationID: 4
-        destinationDialogueID: 26
+        destinationDialogueID: 27
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11309,8 +11457,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1229.2985
-        y: 1325.329
+        x: 1830.5739
+        y: 908.1156
         width: 160
         height: 30
     - id: 26
@@ -11340,7 +11488,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'I was a garbage man, and I was on break for a few minutes. '
+        value: And you seem a bit more intelligent than the others.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11370,7 +11518,7 @@ MonoBehaviour:
       - originConversationID: 4
         originDialogueID: 26
         destinationConversationID: 4
-        destinationDialogueID: 27
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11382,8 +11530,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1188.7922
-        y: 1384.8229
+        x: 2248.8633
+        y: 1028.1705
         width: 160
         height: 30
     - id: 27
@@ -11413,7 +11561,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Nothing more, nothing less. '
+        value: And you seem a bit more intelligent than the others.
         type: 0
         typeString: 
       - title: Parenthetical
@@ -11439,7 +11587,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 27
+        destinationConversationID: 4
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -11449,12 +11603,12 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1179.9314
-        y: 1446.8481
+        x: 1830.5739
+        y: 992.73096
         width: 160
         height: 30
-    canvasScrollPosition: {x: 978.9187, y: 1096.2152}
-    canvasZoom: 0.7899998
+    canvasScrollPosition: {x: 1256.7094, y: 360.63965}
+    canvasZoom: 0.48999986
   - id: 5
     fields:
     - title: Title
