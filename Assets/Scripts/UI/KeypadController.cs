@@ -14,12 +14,29 @@ public class KeypadController : MonoBehaviour {
 		onCorrectCode.Invoke();
 	}
 
-	private int _currentCodePos = 0;
+	public UnityEvent onIncorrectCode = new UnityEvent();
+	private void OnIncorrectCode()
+	{
+		onIncorrectCode.Invoke();
+	}
+
+	private int _currentCodePos;
 	private string _correctCode;
 
-	public void SetCode(string code)
+	public void Initialize(string code)
 	{
 		_correctCode = code;
+		Reset();
+	}
+
+	public void Reset()
+	{
+		_currentCodePos = 0;
+
+		for(int i = 0; i < _code.Length; i++)
+		{
+			_code[i].text = "-";
+		}
 	}
 
 	public void Clicked(string key)
@@ -42,7 +59,8 @@ public class KeypadController : MonoBehaviour {
 	{
 		if(_currentCodePos == 0)
 		{
-			//Possibly put in logic to exit key pad
+			//Temporary
+			OnCorrectCode();
 		}
 		else
 		{
@@ -67,6 +85,8 @@ public class KeypadController : MonoBehaviour {
 		}
 		else
 		{
+			Reset();
+			OnIncorrectCode();
 			Debug.LogError("Incorrect code input");
 		}
 	}

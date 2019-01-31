@@ -6,6 +6,9 @@ using UnityEngine.Events;
 
 public class UIController : MonoBehaviour {
 
+	[SerializeField] private GameObject _screenTint;
+	[SerializeField] private GameObject _keypad;
+
 	public UnityEvent onUIOpened = new UnityEvent();
 	public void OnUIOpened()
 	{
@@ -17,16 +20,13 @@ public class UIController : MonoBehaviour {
 	{
 		onUIClosed.Invoke();
 	}
-
-	[SerializeField] private GameObject _screenTint;
-	[SerializeField] private GameObject _keypad;
 	
 	public void KeypadUsed(string code)
 	{
 		_screenTint.SetActive(true);
 		_keypad.SetActive(true);
 
-		_keypad.GetComponent<KeypadController>().SetCode(code);
+		_keypad.GetComponent<KeypadController>().Initialize(code);
 
 		OnUIOpened();
 	}
