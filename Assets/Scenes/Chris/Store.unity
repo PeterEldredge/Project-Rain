@@ -906,7 +906,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 20
+  m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -8451,7 +8451,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 20
+  m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -9168,6 +9168,12 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 368.632
       objectReference: {fileID: 0}
+    - target: {fileID: 114057279958437502, guid: a95e6510611dc5343ae74bf6c076d1f0,
+        type: 2}
+      propertyPath: profile
+      value: 
+      objectReference: {fileID: 11400000, guid: 0434c222ebb92ca4e8d5e7b4ebbc7170,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
   m_IsPrefabAsset: 0
