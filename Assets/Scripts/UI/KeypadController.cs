@@ -20,19 +20,50 @@ public class KeypadController : MonoBehaviour {
 		onIncorrectCode.Invoke();
 	}
 
-	private int _currentCodePos;
 	private string _correctCode;
+	private int _currentCodePos;
+	private int CurrentCodePos
+	{
+		get { return _currentCodePos; }
+		set
+		{
+			StopCoroutine("BlinkCurrentCodePos");
+
+			if(_currentCodePos < _code.Length) _code[_currentCodePos].gameObject.SetActive(true);
+
+			_currentCodePos = value;
+	
+			StartCoroutine("BlinkCurrentCodePos");
+		}
+	}
+
+	private IEnumerator BlinkCurrentCodePos()
+	{
+		if(CurrentCodePos != _code.Length)
+		{
+			GameObject currentText = _code[CurrentCodePos].gameObject;
+
+			while(true)
+			{
+				yield return new WaitForSeconds(.2f);
+				
+				currentText.SetActive(!currentText.activeSelf);
+				//if(string.IsNullOrEmpty(currentText.text)) currentText.text = "-";
+				//else if(currentText.text == "-") currentText.text = null;
+			}
+		}
+	}
 
 	public void Initialize(string code)
 	{
 		Reset();
-		
+
 		_correctCode = code;
 	}
 
 	public void Reset()
 	{
-		_currentCodePos = 0;
+		CurrentCodePos = 0;
 
 		for(int i = 0; i < _code.Length; i++)
 		{
@@ -58,15 +89,15 @@ public class KeypadController : MonoBehaviour {
 
 	private void ClearCode()
 	{
-		if(_currentCodePos == 0)
+		if(CurrentCodePos == 0)
 		{
 			//Temporary
 			OnCorrectCode();
 		}
 		else
 		{
-			_currentCodePos--;
-			_code[_currentCodePos].text = "-";
+			CurrentCodePos--;
+			_code[CurrentCodePos].text = "-";
 		}
 	}
 
@@ -94,10 +125,10 @@ public class KeypadController : MonoBehaviour {
 
 	private void UpdateCode(string key)
 	{
-		if(_currentCodePos < _code.Length)
+		if(CurrentCodePos < _code.Length)
 		{			
-			_code[_currentCodePos].text = key;
-			_currentCodePos++;
+			_code[CurrentCodePos].text = key;
+			CurrentCodePos++;
 		}
 	}
 }
