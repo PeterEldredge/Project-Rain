@@ -25,8 +25,9 @@ public class KeypadController : MonoBehaviour {
 
 	public void Initialize(string code)
 	{
-		_correctCode = code;
 		Reset();
+		
+		_correctCode = code;
 	}
 
 	public void Reset()
@@ -81,13 +82,13 @@ public class KeypadController : MonoBehaviour {
 		if (code == _correctCode)
 		{
 			OnCorrectCode();
-			Debug.LogError("Correct code input");
+			//Debug.LogError("Correct code input");
 		}
 		else
 		{
 			Reset();
 			OnIncorrectCode();
-			Debug.LogError("Incorrect code input");
+			//Debug.LogError("Incorrect code input");
 		}
 	}
 

@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour {
 
 	[SerializeField] private GameObject _screenTint;
 	[SerializeField] private GameObject _keypad;
+	[SerializeField] private GameObject _terminal;
 
 	public UnityEvent onUIOpened = new UnityEvent();
 	public void OnUIOpened()
@@ -35,6 +36,24 @@ public class UIController : MonoBehaviour {
 	{
 		_screenTint.SetActive(false);
 		_keypad.SetActive(false);
+
+		OnUIClosed();
+	}
+
+	public void TerminalUsed(TerminalContent terminalContent)
+	{
+		_screenTint.SetActive(true);
+		_terminal.SetActive(true);
+
+		_terminal.GetComponent<TerminalController>().Initialize(terminalContent);
+
+		OnUIOpened();
+	}
+
+	public void TerminalClosed()
+	{
+		_screenTint.SetActive(false);
+		_terminal.SetActive(false);
 
 		OnUIClosed();
 	}
