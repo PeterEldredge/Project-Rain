@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PanelArmory
+  m_Shader: {fileID: 4800000, guid: dab8da107eb0df64f86d92a6c36df45c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AORGBHeightA:
+        m_Texture: {fileID: 2800000, guid: 5fb7986dd6d0a8e4093ba82369dd6a4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Alpha:
+        m_Texture: {fileID: 2800000, guid: a6150c17e5cc959448ca9f24a83b7682, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: b66bceaf0cc0ace4e9bdc92f14bba709, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DIF:
+        m_Texture: {fileID: 2800000, guid: 75a85895e27d5d845ac7c9fa1847ea66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.5}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 66321cc856b03e245ac41ed8a53e0ecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementR:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 2800000, guid: 4d2626f5c37f94ed382a1c4960de25a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.5}
+    - _InterlacePattern:
+        m_Texture: {fileID: 2800000, guid: 8eb4c8b978071452faf2c98c2aa433e6, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 1, y: 1}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4d2626f5c37f94ed382a1c4960de25a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.5}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: cb6c5165ed180c543be39ed70e72abc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: cf20bfced7e912046a9ce991a4d775ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RandomBlinkTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShimmerDistort:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlinkSpeed: 5
+    - _BulgeScale: 0.2
+    - _BulgeShape: 5
+    - _Cutoff: 0.5
+    - _Depth: 0.25
+    - _Distort: 0.05
+    - _Divisions: 0.5639098
+    - _Em_Power: 1.5
+    - _EmissionLM: 1
+    - _Gloss: 0.5
+    - _GlowIntensity: 1.2
+    - _HardnessScanLines: 1
+    - _HardnessScanline: 1
+    - _MaxAlphaBlink: 1
+    - _MaxAlphaScanLines: 1
+    - _MaxAlphaScanlines: 1
+    - _Metallic: 0
+    - _MinAlphaBlink: 0.5
+    - _MinAlphaScanLines: 0.3
+    - _MinAlphaScanlines: 0.6
+    - _ScanLines: 50
+    - _SpeedScanLines: -0.5
+    - _SpeedScanLines_test: 10
+    - _Thing: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0, g: 0.8758622, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 0.2391481, b: 0.1102941, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

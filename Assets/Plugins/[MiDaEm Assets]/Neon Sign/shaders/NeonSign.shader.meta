@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: dab8da107eb0df64f86d92a6c36df45c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DIF: {fileID: 2800000, guid: 4d2626f5c37f94ed382a1c4960de25a8, type: 3}
+  - _RandomBlinkTexture: {fileID: 2800000, guid: 691aae4d2d529614a9cc78836395c296,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
