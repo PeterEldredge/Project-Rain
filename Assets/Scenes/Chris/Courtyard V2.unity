@@ -14,17 +14,17 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.13868956, g: 0.006808471, b: 0.16037738, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.3679245, g: 0.08820982, b: 0.019090425, a: 1}
+  m_AmbientEquatorColor: {r: 0.31132078, g: 0.09507371, b: 0.083704166, a: 1}
+  m_AmbientGroundColor: {r: 0.16037738, g: 0.05279343, b: 0.031016378, a: 1}
   m_AmbientIntensity: 0
-  m_AmbientMode: 4
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 82b660520bdecce4daf45d270ec93fe4, type: 2}
   m_HaloStrength: 0.078
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.95
+  m_ReflectionIntensity: 0.477
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13173404, g: 0.14535293, b: 0.15762323, a: 0.95}
+  m_IndirectSpecularColor: {r: 0.20960414, g: 0.10906423, b: 0.060853437, a: 0.477}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -59,7 +59,7 @@ LightmapSettings:
     m_Resolution: 2
     m_BakeResolution: 40
     m_AtlasSize: 1024
-    m_AO: 0
+    m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
@@ -29284,7 +29284,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 80cc5e634fac74b46b17702af4188ab2, type: 2}
+      objectReference: {fileID: 2100000, guid: 2caa64181f9513e4f97224fd556f3006, type: 2}
     - target: {fileID: 4909988165087752, guid: f8a5c3bb2b6733743937b8674612ce52, type: 2}
       propertyPath: m_LocalScale.x
       value: 1
@@ -58618,7 +58618,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 80cc5e634fac74b46b17702af4188ab2, type: 2}
+      objectReference: {fileID: 2100000, guid: 2caa64181f9513e4f97224fd556f3006, type: 2}
     - target: {fileID: 1905158911971768, guid: f8a5c3bb2b6733743937b8674612ce52, type: 2}
       propertyPath: m_Name
       value: SM_Bld_Security_WatchStation_01 (3)
@@ -73661,7 +73661,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 80cc5e634fac74b46b17702af4188ab2, type: 2}
+      objectReference: {fileID: 2100000, guid: 2caa64181f9513e4f97224fd556f3006, type: 2}
     - target: {fileID: 4909988165087752, guid: f8a5c3bb2b6733743937b8674612ce52, type: 2}
       propertyPath: m_LocalScale.x
       value: 1
@@ -89780,7 +89780,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 80cc5e634fac74b46b17702af4188ab2, type: 2}
+      objectReference: {fileID: 2100000, guid: 2caa64181f9513e4f97224fd556f3006, type: 2}
     - target: {fileID: 4909988165087752, guid: f8a5c3bb2b6733743937b8674612ce52, type: 2}
       propertyPath: m_LocalScale.x
       value: 1
