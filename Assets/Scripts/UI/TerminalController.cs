@@ -39,7 +39,7 @@ public class TerminalController : MonoBehaviour {
 		_emailContent.text = null;
 	}
 
-	private void InitializeEmails()
+	public void InitializeEmails()
 	{
 		List<EmailEntry> emails = _terminalContent.EmailEntries;
 
