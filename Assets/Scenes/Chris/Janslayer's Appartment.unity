@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1357679, g: 0.149681, b: 0.16221637, a: 1}
+  m_IndirectSpecularColor: {r: 0.28695223, g: 0.26075754, b: 0.36385414, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -150,6 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22064480}
   - component: {fileID: 22064479}
+  - component: {fileID: 22064481}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -207,6 +208,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &22064481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 22064478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.2
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!4 &23969855 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 475084, guid: ca2a14e122805924dbe80be8a7334c0d,
@@ -497,6 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65145318}
   - component: {fileID: 65145317}
+  - component: {fileID: 65145319}
   m_Layer: 0
   m_Name: Point Light (5)
   m_TagString: Untagged
@@ -519,7 +546,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -554,6 +581,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65145319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65145316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.2
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!1001 &67344737
 Prefab:
   m_ObjectHideFlags: 0
@@ -1704,83 +1756,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4908851891503912, guid: 800458afd8edd8347948cf025aeebfa6,
     type: 2}
   m_PrefabInternal: {fileID: 1536098680}
---- !u!1 &325096390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 325096393}
-  - component: {fileID: 325096392}
-  - component: {fileID: 325096391}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &325096391
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 325096390}
-  m_Enabled: 1
---- !u!20 &325096392
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 325096390}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &325096393
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 325096390}
-  m_LocalRotation: {x: -0, y: 0.60920817, z: -0, w: 0.7930104}
-  m_LocalPosition: {x: -6.99, y: 3.61, z: -7.66}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 75.065, z: 0}
 --- !u!1 &331826000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3664,6 +3639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834765252}
   - component: {fileID: 834765251}
+  - component: {fileID: 834765253}
   m_Layer: 0
   m_Name: Point Light (8)
   m_TagString: Untagged
@@ -3686,7 +3662,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3721,6 +3697,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834765253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834765250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.5
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!1001 &842239310
 Prefab:
   m_ObjectHideFlags: 0
@@ -4180,7 +4181,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!4 &891962647 stripped
 Transform:
@@ -4543,6 +4544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032531226}
   - component: {fileID: 1032531225}
+  - component: {fileID: 1032531227}
   m_Layer: 0
   m_Name: Point Light (9)
   m_TagString: Untagged
@@ -4600,6 +4602,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1032531227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032531224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.5
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!1001 &1033321346
 Prefab:
   m_ObjectHideFlags: 0
@@ -5450,7 +5477,7 @@ Transform:
   - {fileID: 460218060}
   - {fileID: 323904514}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1136387058 stripped
 Transform:
@@ -7222,7 +7249,7 @@ Transform:
   - {fileID: 857163823}
   - {fileID: 749607899}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1553574711 stripped
 Transform:
@@ -7450,6 +7477,24 @@ Transform:
   m_Father: {fileID: 94788115}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1571482117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1761746993660590, guid: a95e6510611dc5343ae74bf6c076d1f0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1871228915}
+--- !u!114 &1571482128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1571482117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eed1d9cbe64423499f1fefc0ce50417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Resolution: 1
+  DefaultSpotCookie: {fileID: 0}
 --- !u!1001 &1575115340
 Prefab:
   m_ObjectHideFlags: 0
@@ -7655,7 +7700,7 @@ Transform:
   m_LocalScale: {x: 105.67383, y: -0.033319, z: 83.32094}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1611406578
 GameObject:
@@ -7666,6 +7711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611406580}
   - component: {fileID: 1611406579}
+  - component: {fileID: 1611406581}
   m_Layer: 0
   m_Name: Point Light (2)
   m_TagString: Untagged
@@ -7723,6 +7769,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611406581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611406578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.5
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!1 &1612940738
 GameObject:
   m_ObjectHideFlags: 0
@@ -8271,7 +8342,7 @@ Transform:
   - {fileID: 2139778823}
   - {fileID: 121376265}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734679549
 GameObject:
@@ -8895,6 +8966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849686244}
   - component: {fileID: 1849686243}
+  - component: {fileID: 1849686245}
   m_Layer: 0
   m_Name: Point Light (7)
   m_TagString: Untagged
@@ -8952,6 +9024,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1849686245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1849686242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.5
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!4 &1853774720 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 450016, guid: 2ee82db45b3d10547946053742bbe299,
@@ -9048,7 +9145,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4860755446844902, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4860755446844902, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
       propertyPath: m_LocalScale.x
@@ -9218,6 +9315,11 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: e2836a685fbb4f04da50d45383a07488,
         type: 2}
+    - target: {fileID: 224778189601923444, guid: a95e6510611dc5343ae74bf6c076d1f0,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a95e6510611dc5343ae74bf6c076d1f0, type: 2}
   m_IsPrefabAsset: 0
@@ -9465,7 +9567,7 @@ Transform:
   - {fileID: 1886439650}
   - {fileID: 1775590997}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1912765051
 Prefab:
@@ -9564,6 +9666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932690496}
   - component: {fileID: 1932690495}
+  - component: {fileID: 1932690497}
   m_Layer: 0
   m_Name: Point Light (1)
   m_TagString: Untagged
@@ -9621,6 +9724,31 @@ Transform:
   m_Father: {fileID: 1909517592}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932690497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932690494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafc90245bfe9e2408e358f71deace2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleCount: 8
+  ScatteringCoef: 0.5
+  ExtinctionCoef: 0.01
+  SkyboxExtinctionCoef: 0.9
+  MieG: 0.1
+  HeightFog: 0
+  HeightScale: 0.1
+  GroundLevel: 0
+  Noise: 0
+  NoiseScale: 0.015
+  NoiseIntensity: 1
+  NoiseIntensityOffset: 0.3
+  NoiseVelocity: {x: 3, y: 3}
+  MaxRayLength: 400
 --- !u!1001 &1937365814
 Prefab:
   m_ObjectHideFlags: 0
@@ -9658,7 +9786,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4561922617186628, guid: af8e7b9e234ccc445989f26edf6513ef, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4561922617186628, guid: af8e7b9e234ccc445989f26edf6513ef, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -10396,7 +10524,7 @@ Transform:
   - {fileID: 866617438}
   - {fileID: 1036460950}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2103795149 stripped
 Transform:
@@ -10831,7 +10959,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4595876024114788, guid: d2e502aca5c81b24aa4e0ef05944eb0b, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4595876024114788, guid: d2e502aca5c81b24aa4e0ef05944eb0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y

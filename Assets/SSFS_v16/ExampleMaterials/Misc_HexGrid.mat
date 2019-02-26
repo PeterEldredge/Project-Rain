@@ -93,7 +93,7 @@ Material:
     - _OcclusionStrength: 1
     - _Overbright: 0.5
     - _Parallax: 0.02
-    - _Phase: 0
+    - _Phase: 1.0213926
     - _PhaseRotation: 0.625
     - _PhaseSharpness: 0
     - _Radial: 1
