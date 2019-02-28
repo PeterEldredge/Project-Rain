@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ad_StarsporeBionics
+  m_Shader: {fileID: 4800000, guid: bd955d9832dd6414f9659a6e1e41041c, type: 3}
+  m_ShaderKeywords: SCREEN_POS _CLIPPEDTILES_ON _ROUNDCLIPPING_ON _SCALEAROUNDTILE_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    IgnoreProjectors: true
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ec26f057c79ef244f8c6e330ba910ab3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: f38442fedb9aaa44288533c4f5007565, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Aberration: 0.038
+    - _BackfaceVisibility: 0.2
+    - _BlendDest: 10
+    - _BlendDst: 1
+    - _BlendSrc: 1
+    - _ClippedTiles: 1
+    - _Cull: 2
+    - _CullMode: 0
+    - _DoZWrite: 0
+    - _EffectAberration: 0.25
+    - _FlashAmount: 0.18
+    - _Flicker: 0.1
+    - _IdleAmount: 1
+    - _IdleRand: 0
+    - _IdleSpeed: 0.05
+    - _InvertIdle: 0
+    - _InvertPhase: 0
+    - _Overbright: 0.15
+    - _Phase: 1
+    - _PhaseRotation: 0.5
+    - _PhaseSharpness: 0.3
+    - _Radial: 1
+    - _RoundClipping: 1
+    - _ScaleAroundTile: 1
+    - _ScanlineIntensity: 0.205
+    - _ScanlineScale: 0
+    - _ScanlineShift: 0
+    - _Scattering: 1
+    - _SquareTiles: 0
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 0.5310344, g: 1, b: 0, a: 1}
+    - _IdleData: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _PhaseDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _ScaleCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Scaling: {r: 1, g: 1, b: 0, a: 0}
+    - _ScanlineData: {r: 0.2, g: 0.5, b: 0, a: 0}
+    - _TileCount: {r: 20, g: 20, b: 0, a: 0}

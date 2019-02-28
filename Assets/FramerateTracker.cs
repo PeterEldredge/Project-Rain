@@ -21,7 +21,7 @@ public class FramerateTracker : MonoBehaviour {
 	{
 		while(true)
 		{
-			_text.text = (Mathf.Round(1f / Time.deltaTime)).ToString();
+			_text.text = (Mathf.Round(1f / Time.unscaledDeltaTime)).ToString();
 
 			yield return new WaitForSeconds(_updateRate);
 		}
