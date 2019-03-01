@@ -8,12 +8,15 @@ public class LightFlicker : MonoBehaviour {
 
 	[SerializeField] private AnimationCurve _onTimeCurve;
 	[SerializeField] private AnimationCurve _offTimeCurve;
+	[SerializeField] private AnimationCurve _offIntensity;
 
 	private bool _on;
+	private float _startingIntensity;
 
 	private void Awake()
 	{
 		_on = _light.enabled;
+		_startingIntensity = _light.intensity;
 
 		StartCoroutine(FlickerRoutine());
 	}
@@ -29,7 +32,19 @@ public class LightFlicker : MonoBehaviour {
 			yield return new WaitForSeconds(waitTime);
 
 			_on = !_on;
-			_light.enabled = _on;
+
+			if(_offIntensity == null)
+			{
+				_light.enabled = _on;
+			}
+			else if(_light.intensity == _startingIntensity)
+			{
+				_light.intensity = _offIntensity.Evaluate(Random.Range(0, _offIntensity.length));
+			}
+			else
+			{
+				_light.intensity = _startingIntensity;
+			}
 		}
 	}
 }
