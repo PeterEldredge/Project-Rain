@@ -11,7 +11,7 @@ public class EmailEntry : ScriptableObject {
 		get { return _title; } 
 	}
 
-	[SerializeField] [TextArea] private string _content;
+	[SerializeField] [TextArea(10, 20)] private string _content;
 	public string Content
 	{
 		get { return _content; }

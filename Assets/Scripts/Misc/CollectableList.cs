@@ -17,8 +17,8 @@ public class CollectableList : MonoBehaviour {
         get { return _items; }
     }
 
-    private List<JournalEntry> _journal;
-    public List<JournalEntry> Journal
+    private List<Journal> _journal;
+    public List<Journal> Journal
     {
         get { return _journal; }
     }
@@ -27,6 +27,6 @@ public class CollectableList : MonoBehaviour {
     {
         _documents = new Document[20];
         _items = new Item[20];
-        _journal = new List<JournalEntry>();
+        _journal = new List<Journal>();
     }
 }
