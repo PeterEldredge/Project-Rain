@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class UIController : MonoBehaviour {
+public class UIController : MonoBehaviour, IUseGameEvents {
 
 	[SerializeField] private GameObject _screenTint;
 	[SerializeField] private GameObject _keypad;
@@ -21,13 +21,35 @@ public class UIController : MonoBehaviour {
 	{
 		onUIClosed.Invoke();
 	}
+
+	private void Awake()
+	{
+		Subscribe();
+	}
+
+	private void OnDestroyed()
+	{
+		Unsubscribe();
+	}
+
+	public void Subscribe()
+    {
+		EventManager.AddListener<Events.KeypadUsedEvent>(KeypadUsed);
+        EventManager.AddListener<Events.TerminalUsedEvent>(TerminalUsed);
+    }
+
+    public void Unsubscribe()
+    {
+		EventManager.RemoveListener<Events.KeypadUsedEvent>(KeypadUsed);
+        EventManager.RemoveListener<Events.TerminalUsedEvent>(TerminalUsed);
+    }
 	
-	public void KeypadUsed(string code)
+	public void KeypadUsed(Events.KeypadUsedEvent eventArgs)
 	{
 		_screenTint.SetActive(true);
 		_keypad.SetActive(true);
 
-		_keypad.GetComponent<KeypadController>().Initialize(code);
+		_keypad.GetComponent<KeypadController>().Initialize(eventArgs.Code);
 
 		OnUIOpened();
 	}
@@ -40,12 +62,12 @@ public class UIController : MonoBehaviour {
 		OnUIClosed();
 	}
 
-	public void TerminalUsed(TerminalContent terminalContent)
+	public void TerminalUsed(Events.TerminalUsedEvent eventArgs)
 	{
 		_screenTint.SetActive(true);
 		_terminal.SetActive(true);
 
-		_terminal.GetComponent<TerminalController>().Initialize(terminalContent);
+		_terminal.GetComponent<TerminalController>().Initialize(eventArgs.TerminalContent);
 
 		OnUIOpened();
 	}

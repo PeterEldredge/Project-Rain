@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Collectable/Item")]
-public class Item : ScriptableObject {
-
+public class Item : ScriptableObject, ICollectable
+{
     [SerializeField] private string _name;
     public string Name
     {
@@ -23,4 +23,8 @@ public class Item : ScriptableObject {
         get { return _index; }
     }
 
+    public void OnUse()
+    {
+        EventManager.TriggerEvent(new Events.ItemCollectedEvent(this));
+    }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Collectable/Journal")]
-public class Journal : ScriptableObject {
+public class Journal : ScriptableObject, ICollectable {
 
     [SerializeField] private string _name;
     public string Name
@@ -17,4 +17,8 @@ public class Journal : ScriptableObject {
         get { return _content; }
     }
 
+    public void OnUse()
+    {
+        EventManager.TriggerEvent(new Events.JournalCollectedEvent(this));
+    }
 }
