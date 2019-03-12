@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Events;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour, ISaveable
+public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
 {
 	//UNSURE OF THIS
 	public string SAVE_FILE
@@ -46,6 +48,48 @@ public class Inventory : MonoBehaviour, ISaveable
 		_journals = journals;
 	}
 
+	#region EVENT_HANDLING
+	private void Awake()
+	{
+		Subscribe();
+	}
+
+	private void OnDestroy()
+	{
+		Unsubscribe();
+	}
+
+	public void Subscribe()
+    {
+        EventManager.AddListener<Events.DocumentCollectedEvent>(DocumentCollected);
+		EventManager.AddListener<Events.ItemCollectedEvent>(ItemCollected);
+		EventManager.AddListener<Events.JournalCollectedEvent>(JournalCollected);
+    }
+
+    public void Unsubscribe()
+    {
+        EventManager.RemoveListener<Events.DocumentCollectedEvent>(DocumentCollected);
+		EventManager.RemoveListener<Events.ItemCollectedEvent>(ItemCollected);
+		EventManager.RemoveListener<Events.JournalCollectedEvent>(JournalCollected);
+    }
+
+	private void DocumentCollected(Events.DocumentCollectedEvent eventArgs)
+	{
+		_documents[eventArgs.Document.Index] = eventArgs.Document;
+	}
+
+    private void ItemCollected(ItemCollectedEvent eventArgs)
+    {
+		_items[eventArgs.Item.Index] = eventArgs.Item;
+    }
+
+	private void JournalCollected(JournalCollectedEvent eventArgs)
+    {
+		_journals.Add(eventArgs.Journal);
+    }
+	#endregion
+
+	#region JSON
 	[ContextMenu("SAVE")]
 	public void Save()
 	{
@@ -64,7 +108,7 @@ public class Inventory : MonoBehaviour, ISaveable
 		_journals = jsonInventory.ArrayToList(jsonInventory.Journals);
 	}
 
-	[System.Serializable]
+    [System.Serializable]
 	private class JsonFriendlyInventory
 	{
 		public Document[] Documents;
@@ -102,4 +146,5 @@ public class Inventory : MonoBehaviour, ISaveable
 			return list;
 		}
 	}
+	#endregion
 }
