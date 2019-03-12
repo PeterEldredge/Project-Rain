@@ -147,4 +147,4 @@ public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
 		}
 	}
 	#endregion
-}
+}  
