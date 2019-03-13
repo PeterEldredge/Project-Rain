@@ -38,10 +38,41 @@ namespace Events
 
 public class Collectable : MonoBehaviour
 {
+	//MUST BE DONE BECAUSE INTERFACES DO NOT WORK WITH INSPECTOR
+	//PS I HATE UNITY
+	public enum CollectableType
+	{
+		Document,
+		Item,
+		Journal
+	}
+
+	public CollectableType collectableType;
+
+	public Document document;
+	public Item item;
+	public Journal journal;
+
     [SerializeField] private ICollectable _collectable;
 
     public void OnUse()
     {
+		switch(collectableType)
+		{
+			case CollectableType.Document:
+				_collectable = document;
+				break;
+			case CollectableType.Item:
+				_collectable = item;
+				break;
+			case CollectableType.Journal:
+				_collectable = journal;
+				break;
+		}
+
 		_collectable.OnUse();
+
+		//I HATE THIS LINE
+		Destroy(transform.parent.transform.parent.gameObject);
     }  
 }

@@ -48,8 +48,6 @@ public class KeypadController : MonoBehaviour {
 				yield return new WaitForSeconds(.2f);
 				
 				currentText.SetActive(!currentText.activeSelf);
-				//if(string.IsNullOrEmpty(currentText.text)) currentText.text = "-";
-				//else if(currentText.text == "-") currentText.text = null;
 			}
 		}
 	}

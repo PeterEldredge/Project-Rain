@@ -20,7 +20,7 @@ public class EventExampleObj : GameEventUserObject
     }
 }
 
-public class GameEventsTriggerer : MonoBehaviour
+public class EventExampleTriggererObj : MonoBehaviour
 {
     private void Awake()
     {

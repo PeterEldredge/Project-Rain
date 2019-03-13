@@ -4,12 +4,12 @@ using UnityEngine;
 
 public abstract class GameEventUserObject : MonoBehaviour, IUseGameEvents
 {
-    private void Awake()
+    protected virtual void Awake()
     {
         Subscribe();
     }
 
-    private void OnDestroy()
+    protected virtual void OnDestroy()
     {
         Unsubscribe();
     }

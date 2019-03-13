@@ -33,6 +33,15 @@ public class Inventory : GameEventUserObject, ISaveable
 		get { return _journals; }
 	}
 
+	protected override void Awake()
+	{
+		_documents = new Document[5];
+		_items = new Item[5];
+		_journals = new List<Journal>();
+
+		base.Awake();
+	}
+
 	#region EVENT_HANDLING
 
 	public override void Subscribe()
