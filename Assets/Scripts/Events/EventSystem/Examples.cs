@@ -2,29 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameEventsUser : MonoBehaviour, IUseGameEvents
+public class EventExampleObj : GameEventUserObject
 {
     private void DisplayFinalScore(Events.GameOverEventArgs eventArgs)
     {
         Debug.Log("Display " + eventArgs.Time.ToString());
     }
 
-    private void Awake()
-    {
-        Subscribe();
-    }
-
-    private void OnDestroy()
-    {
-        Unsubscribe();
-    }
-
-    public void Subscribe()
+    public override void Subscribe()
     {
         EventManager.AddListener<Events.GameOverEventArgs>(DisplayFinalScore);
     }
 
-    public void Unsubscribe()
+    public override void Unsubscribe()
     {
         EventManager.RemoveListener<Events.GameOverEventArgs>(DisplayFinalScore);
     }

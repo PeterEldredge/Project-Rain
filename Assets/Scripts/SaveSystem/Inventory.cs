@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using Events;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
+public class Inventory : GameEventUserObject, ISaveable
 {
 	//UNSURE OF THIS
 	public string SAVE_FILE
     {
         get
         {
-            return SaveSystem.SAVE_FOLDER + "/inventory.txt";
+            return "/inventory.txt";
         }
     }
 
@@ -33,40 +33,16 @@ public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
 		get { return _journals; }
 	}
 
-    public Inventory()
-	{
-		//NUMBERS MUST BE UPDATED WHEN FINAL NUM OF DDOCUMENTS IS DECIDED
-		_documents = new Document[5];
-		_items = new Item[5];
-		_journals = new List<Journal>();
-	}
-
-	public Inventory(Document[] documents, Item[] items, List<Journal> journals)
-	{
-		_documents = documents;
-		_items = items;
-		_journals = journals;
-	}
-
 	#region EVENT_HANDLING
-	private void Awake()
-	{
-		Subscribe();
-	}
 
-	private void OnDestroy()
-	{
-		Unsubscribe();
-	}
-
-	public void Subscribe()
+	public override void Subscribe()
     {
         EventManager.AddListener<Events.DocumentCollectedEvent>(DocumentCollected);
 		EventManager.AddListener<Events.ItemCollectedEvent>(ItemCollected);
 		EventManager.AddListener<Events.JournalCollectedEvent>(JournalCollected);
     }
 
-    public void Unsubscribe()
+    public override void Unsubscribe()
     {
         EventManager.RemoveListener<Events.DocumentCollectedEvent>(DocumentCollected);
 		EventManager.RemoveListener<Events.ItemCollectedEvent>(ItemCollected);
@@ -147,4 +123,4 @@ public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
 		}
 	}
 	#endregion
-}  
+} 

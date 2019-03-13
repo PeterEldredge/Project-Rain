@@ -7,23 +7,22 @@ public static class SaveSystem
 {
 	public static readonly string SAVE_FOLDER = Application.dataPath + "/SaveData/";
 
-	public static void Save(string path, string json)
+	public static void Save(string file, string json)
 	{
 		if(!Directory.Exists(SAVE_FOLDER))
 		{
 			Directory.CreateDirectory(SAVE_FOLDER);
 		}
 
-		File.WriteAllText(path, json);
+		File.WriteAllText(SAVE_FOLDER + file, json);
 	}
 
-	public static string Load(string path)
+	public static string Load(string file)
 	{
-		if(File.Exists(path))
+		if(File.Exists(SAVE_FOLDER + file))
 		{
-			return File.ReadAllText(path);
+			return File.ReadAllText(SAVE_FOLDER + file);
 		}
 		else return null;
 	}
-	
 }

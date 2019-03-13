@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class UIController : MonoBehaviour, IUseGameEvents {
+public class UIController : GameEventUserObject 
+{
 
 	[SerializeField] private GameObject _screenTint;
 	[SerializeField] private GameObject _keypad;
@@ -22,23 +23,13 @@ public class UIController : MonoBehaviour, IUseGameEvents {
 		onUIClosed.Invoke();
 	}
 
-	private void Awake()
-	{
-		Subscribe();
-	}
-
-	private void OnDestroyed()
-	{
-		Unsubscribe();
-	}
-
-	public void Subscribe()
+	public override void Subscribe()
     {
 		EventManager.AddListener<Events.KeypadUsedEvent>(KeypadUsed);
         EventManager.AddListener<Events.TerminalUsedEvent>(TerminalUsed);
     }
 
-    public void Unsubscribe()
+    public override void Unsubscribe()
     {
 		EventManager.RemoveListener<Events.KeypadUsedEvent>(KeypadUsed);
         EventManager.RemoveListener<Events.TerminalUsedEvent>(TerminalUsed);
