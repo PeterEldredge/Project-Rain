@@ -36,8 +36,8 @@ public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
     public Inventory()
 	{
 		//NUMBERS MUST BE UPDATED WHEN FINAL NUM OF DDOCUMENTS IS DECIDED
-		_documents = new Document[20];
-		_items = new Item[20];
+		_documents = new Document[5];
+		_items = new Item[5];
 		_journals = new List<Journal>();
 	}
 
@@ -142,7 +142,7 @@ public class Inventory : MonoBehaviour, ISaveable, IUseGameEvents
 			{
 				list.Add(array[i]);
 			}
-
+   
 			return list;
 		}
 	}
