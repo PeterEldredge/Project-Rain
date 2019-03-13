@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "Collectable/Item")]
 public class Item : ScriptableObject, ICollectable
@@ -15,6 +16,12 @@ public class Item : ScriptableObject, ICollectable
     public string Description
     {
         get { return _description; }
+    }
+
+    [SerializeField] private Image _image;
+    public Image Image
+    {
+        get { return _image; }
     }
 
     [SerializeField] int _index;
