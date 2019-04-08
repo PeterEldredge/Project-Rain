@@ -100,23 +100,23 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.8
-        threshold: 1.1
+        intensity: 1.5
+        threshold: 1
         softKnee: 0.32
-        radius: 3.83
+        radius: 4
         antiFlicker: 1
       lensDirt:
         texture: {fileID: 0}
-        intensity: 3
+        intensity: 0
   colorGrading:
     m_Enabled: 1
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.019
-        neutralWhiteIn: 9.5
-        neutralBlackOut: 0.004
-        neutralWhiteOut: 9.8
+        neutralBlackIn: 0.007
+        neutralWhiteIn: 7.7
+        neutralBlackOut: 0.037
+        neutralWhiteOut: 2.5
         neutralWhiteLevel: 4.9
         neutralWhiteClip: 10
       basic:
