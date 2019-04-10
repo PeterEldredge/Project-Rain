@@ -1,1 +1,0 @@
-The integration documentation is located at: https://www.pixelcrushers.com/dialogue_system/manual2x/html/ucc.html
