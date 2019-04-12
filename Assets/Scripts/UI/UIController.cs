@@ -14,14 +14,12 @@ public class UIController : GameEventUserObject
 	public UnityEvent onUIOpened = new UnityEvent();
 	public void OnUIOpened()
 	{
-		CursorController.UnlockCursor();
 		onUIOpened.Invoke();
 	}
 
 	public UnityEvent onUIClosed = new UnityEvent();
 	public void OnUIClosed()
 	{
-		CursorController.LockCursor();
 		onUIClosed.Invoke();
 	}
 
