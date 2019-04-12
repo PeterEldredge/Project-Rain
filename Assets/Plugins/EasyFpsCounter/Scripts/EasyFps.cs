@@ -61,7 +61,7 @@ public class EasyFps : MonoBehaviour {
             mx = maxFR;
             RefreshTime = refresht;
             QualitySettings.vSyncCount = 0;
-            Application.targetFrameRate = maxFR;
+            Application.targetFrameRate = 60;
         }
         EasyFpsCounter.EasyFps = this;
 

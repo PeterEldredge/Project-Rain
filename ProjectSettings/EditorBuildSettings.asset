@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Master/Master.unity
     guid: 0ed43431168b7834f9774508953b5e70
+  - enabled: 1
+    path: Assets/Scenes/Peter/CourtyardTesting.unity
+    guid: f8ca8dd50ef16fa44b536033f40cd763
   m_configObjects: {}
