@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class KeypadController : MonoBehaviour {
 
-	[SerializeField] Text[] _code;
+	[SerializeField] private Text[] _code;
 
 	public UnityEvent onCorrectCode = new UnityEvent();
 	private void OnCorrectCode()
