@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Trash Room Journal 1
   m_EditorClassIdentifier: 
   _name: Trash Room Journal 1
-  _title: 
+  _title: Albright Daily News
   _content: "RESIDENTS SAY SERIAL KILLER KNOWN AS \u201CTHE JANSLAYER\u201D MAY BE
     BEHIND RECENT ATTACK.\r\n\r\nThe body of Jan Donnelly, Aged 34, was found hanging
     under the 5th street overpass. She had been drained of blood, and her head was
-    nowhere to be found. Days later, a cardboard box arrived at her ex husband\u2019s
+    nowhere to be found. \n\nDays later, a cardboard box arrived at her ex husband\u2019s
     doorstep, containing the missing head, as well as a note reading \u201CAny more
     requests?\u201D. The husband was brought in for questioning but later released.
-    Police refused to say if they had any leads, but residents suspect local Boogeyman,
+    \n\nPolice refused to say if they had any leads, but residents suspect local Boogeyman,
     \u201CThe Janslayer\u201D may be behind the attack. \r\n"
   _index: 0
