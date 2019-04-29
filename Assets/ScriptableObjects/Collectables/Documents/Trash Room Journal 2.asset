@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2d9c12c7854bf41996e2dfe20a1410, type: 3}
+  m_Name: Trash Room Journal 2
+  m_EditorClassIdentifier: 
+  _name: Trash Room Journal 2
+  _title: Albright City News
+  _content: "NEWLY ELECTED MAYOR ADDRESSES CROWD\r\n\r\n\u201CI know you all probably
+    have lots of questions, and my organization will do the best we can to address
+    them, but for now, know that the revolutionaries responsible for former Mayor
+    Hyron\u2019s death have been apprehended, and are being dealt with...\u201D (More
+    on Page 7)\r\n\r\nSYN CORP CEO DENIES ALLEGATIONS \r\n\r\nSyn Corp CEO Kyler Maxwell
+    assures the public that his female workers were not pressured into sexual activity
+    in any way, shape or form. Denies all claims that say otherwise. Still has yet
+    to address the two missing workers reported last week. (Full story on page 4)\r\n\r\nREC
+    CENTER BURNED\r\n\r\n10th Street Rec Center closes its doors for good after fire
+    burns down top floors. It was revealed last week that the top floor was being
+    used as a hideout for members of the Black Ring revolutionary group. The Mayor\u2019s
+    office refused to comment when asked about any police involvement.  \r\n\n"
+  _index: 0

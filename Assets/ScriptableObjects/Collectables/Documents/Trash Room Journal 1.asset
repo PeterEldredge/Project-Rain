@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2d9c12c7854bf41996e2dfe20a1410, type: 3}
+  m_Name: Trash Room Journal 1
+  m_EditorClassIdentifier: 
+  _name: Trash Room Journal 1
+  _title: 
+  _content: "RESIDENTS SAY SERIAL KILLER KNOWN AS \u201CTHE JANSLAYER\u201D MAY BE
+    BEHIND RECENT ATTACK.\r\n\r\nThe body of Jan Donnelly, Aged 34, was found hanging
+    under the 5th street overpass. She had been drained of blood, and her head was
+    nowhere to be found. Days later, a cardboard box arrived at her ex husband\u2019s
+    doorstep, containing the missing head, as well as a note reading \u201CAny more
+    requests?\u201D. The husband was brought in for questioning but later released.
+    Police refused to say if they had any leads, but residents suspect local Boogeyman,
+    \u201CThe Janslayer\u201D may be behind the attack. \r\n"
+  _index: 0

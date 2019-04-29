@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2d9c12c7854bf41996e2dfe20a1410, type: 3}
+  m_Name: Digital Implants Journal
+  m_EditorClassIdentifier: 
+  _name: Digital Implants Journal
+  _title: Shopkeeper's Note
+  _content: "Maren keeps losing control whenever someone visits the shop, and then
+    I get a bad rap for it. I barely have any customers as is, and now even the few
+    I could rely on have stopped showing up. \r\n\r\nI never should have gone with
+    that TL-3 core when installing her internal processor. It was cheaper then, but
+    not worth it in the long run. I\u2019ve tried replacing it, but she never understands
+    and just assumes I\u2019m trying to hurt her.\r\n\r\nOne of these days I actually
+    might. \r\n\r\nThe last time she short circuited, she went ballistic and startled
+    nearly every tenant in the complex. If we didn\u2019t live in such an isolated
+    shit hole, I would have been arrested on sight. \r\n\r\nI love her to death, but
+    I can\u2019t make a living without any paying customers.\r\n"
+  _index: 0

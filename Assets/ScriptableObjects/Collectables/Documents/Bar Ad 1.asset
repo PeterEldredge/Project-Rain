@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2d9c12c7854bf41996e2dfe20a1410, type: 3}
+  m_Name: Bar Ad 1
+  m_EditorClassIdentifier: 
+  _name: Bar ad 1
+  _title: Calling all Freaks...
+  _content: "In need of HOT, STEAMY, ROBOTIC, SEX? Visit your local Good Time Robots
+    today! Our androids are the highest rated pleasure-bots on the market. \r\n\r\nInto
+    big girls? Just ask to see our plus sized models!\r\n\r\nFeeling a little dangerous?
+    Good Time Robots offer incredible BDSM and bondage packages!\r\n\r\nGay, Straight,
+    Bi, Trans\u2026 EVERYONE IS ACCEPTED!\r\n\r\nNo matter your kink, We have a model
+    fit for you! \r\n\r\nVisit us today, and become a member for life! You\u2019ll
+    see why our customers can never seem to leave once they arrive! \r\n"
+  _index: 0

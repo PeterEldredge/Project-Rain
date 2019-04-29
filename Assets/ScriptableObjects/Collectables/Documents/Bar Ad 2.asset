@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2d9c12c7854bf41996e2dfe20a1410, type: 3}
+  m_Name: Bar Ad 2
+  m_EditorClassIdentifier: 
+  _name: Bar Ad 2
+  _title: NEW! NEW! NEW!
+  _content: "THE BEST BURGERS THIS SIDE OF ALTON RIDGE\r\n\r\nIntroducing our freshest
+    burger ever! The Living Breathing Ultra Burger! \n\nNow available at any Dirty
+    Burg location. \r\n\nVisit your local \u201CGood Time Robots\u201D affiliated
+    store for a 75% off coupon today! \n\n*Offer valid until 12/31/2042*  *Limit 1
+    per customer*\r\n"
+  _index: 0
