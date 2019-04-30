@@ -2,10 +2,7 @@
 -Disable sprint
 -Disable running
 
-//BUGS
--Hitting escape won't remove the mouse cursor
--Sliding down steps
-
-//TODO
--Set light to fire
+//Notes
+-Audio is put in terribly, needs a manager of sorts and a pooling system.
+-DONT FORGET ABOUT AUDIO SOURCE IN DIALOGUE SYSTEM PREFAB!!!!!!!
 

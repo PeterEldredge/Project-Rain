@@ -12,6 +12,18 @@ public class TerminalController : MonoBehaviour {
 	[SerializeField] private Text _emailTitle;
 	[SerializeField] private Text _emailContent;
 
+	public UnityEvent onTerminalOpened = new UnityEvent();
+	private void OnTerminalOpened()
+	{
+		onTerminalOpened.Invoke();
+	}
+
+	public UnityEvent onTerminalClosed = new UnityEvent();
+	private void OnTerminalClosed()
+	{
+		onTerminalClosed.Invoke();
+	}
+
 	private LayoutElement _emailContentLayoutElement;
 
 	private TerminalContent _terminalContent;
@@ -23,6 +35,7 @@ public class TerminalController : MonoBehaviour {
 
 	public void Initialize(TerminalContent terminalContent)
 	{
+		OnTerminalOpened();
 		Reset();
 
 		_terminalContent = terminalContent;

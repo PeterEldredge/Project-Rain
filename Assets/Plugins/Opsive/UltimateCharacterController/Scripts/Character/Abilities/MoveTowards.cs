@@ -72,7 +72,7 @@ namespace Opsive.UltimateCharacterController.Character.Abilities
             m_OnArriveAbility = onArriveAbility;
 
             // The movement speed will depend on the current speed the character is moving.
-            m_MovementMultiplier = 1;
+            m_MovementMultiplier = 1f;
             if (m_SpeedChangeAbilities != null) {
                 for (int i = 0; i < m_SpeedChangeAbilities.Length; ++i) {
                     if (m_SpeedChangeAbilities[i].IsActive) {
