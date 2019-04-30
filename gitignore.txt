@@ -37,4 +37,4 @@ sysinfo.txt
 *.unitypackage
 
 # Plugins
-[Aa]ssets/Plugins/Opsive/*
+[Aa]ssets/Plugins/Opsive/
