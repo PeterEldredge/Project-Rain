@@ -6124,8 +6124,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1929.165
-        y: 1453.7192
+        x: 1920.3043
+        y: 1482.8331
         width: 160
         height: 30
     - id: 41
@@ -6197,8 +6197,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2125.6562
-        y: 1458.688
+        x: 2105.403
+        y: 1490.3336
         width: 160
         height: 30
     - id: 42
@@ -6345,8 +6345,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2476.255
-        y: 1461.8306
+        x: 2714.2295
+        y: 1437.7799
         width: 160
         height: 30
     - id: 44
@@ -6418,8 +6418,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2601.6702
-        y: 1524.0898
+        x: 2520.6575
+        y: 1474.7227
         width: 160
         height: 30
     - id: 45
@@ -6638,8 +6638,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2296.255
-        y: 1454.7334
+        x: 2308.913
+        y: 1499.0372
         width: 160
         height: 30
     - id: 48
@@ -7994,8 +7994,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1409.5885
-        y: 1712.9292
+        x: 1417.4833
+        y: 1705.0344
         width: 160
         height: 30
     - id: 66
@@ -8134,8 +8134,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1559.5665
-        y: 1771.8771
+        x: 1624.0402
+        y: 1745.5613
         width: 160
         height: 30
     - id: 68
@@ -8208,8 +8208,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1352.8013
-        y: 1758.5425
+        x: 1384.3801
+        y: 1773.0162
         width: 160
         height: 30
     - id: 69
@@ -8502,8 +8502,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 627.39923
-        y: 2049.0837
+        x: 556.34656
+        y: 2045.1365
         width: 160
         height: 30
     - id: 73
@@ -8575,8 +8575,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1058.8712
-        y: 2051.615
+        x: 964.1344
+        y: 2043.7202
         width: 160
         height: 30
     - id: 74
@@ -8735,8 +8735,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 846.872
-        y: 2053.6272
+        x: 775.81934
+        y: 2043.1011
         width: 160
         height: 30
     - id: 76
@@ -9169,8 +9169,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1368.4617
-        y: 1807.8263
+        x: 1369.7775
+        y: 1824.9315
         width: 160
         height: 30
     - id: 82
@@ -9243,8 +9243,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1356.44
-        y: 1858.1572
+        x: 1357.7557
+        y: 1875.2625
         width: 160
         height: 30
     - id: 83
@@ -10574,8 +10574,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2669.7065
-        y: 2182.9902
+        x: 2668.3906
+        y: 2131.6743
         width: 160
         height: 30
     - id: 102
@@ -10648,8 +10648,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2462.9414
-        y: 2169.6553
+        x: 2465.573
+        y: 2119.6553
         width: 160
         height: 30
     - id: 103
@@ -10721,8 +10721,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2213.0957
-        y: 2129.1396
+        x: 2274.938
+        y: 2143.6133
         width: 160
         height: 30
     - id: 104
@@ -10795,8 +10795,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2178.9185
-        y: 2177.2407
+        x: 2257.8657
+        y: 2208.8196
         width: 160
         height: 30
     - id: 105
@@ -10869,8 +10869,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2170.5432
-        y: 2252.1152
+        x: 2217.9116
+        y: 2266.5889
         width: 160
         height: 30
     - id: 106
@@ -11536,8 +11536,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2159.5625
-        y: 2318.483
+        x: 2200.352
+        y: 2329.0093
         width: 160
         height: 30
     - id: 115
@@ -14471,8 +14471,8 @@ MonoBehaviour:
         y: 2092.232
         width: 160
         height: 30
-    canvasScrollPosition: {x: 1316.2917, y: 1253.9116}
-    canvasZoom: 0.4600006
+    canvasScrollPosition: {x: 870.2823, y: 1693.0435}
+    canvasZoom: 0.7599999
   - id: 3
     fields:
     - title: Title
