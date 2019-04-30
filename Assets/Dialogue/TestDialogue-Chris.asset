@@ -15362,8 +15362,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 162.40643
-        y: 1368.1257
+        x: 165.68512
+        y: 1350.093
         width: 160
         height: 30
     - id: 168
@@ -15426,6 +15426,12 @@ MonoBehaviour:
         destinationDialogueID: 169
         isConnector: 0
         priority: 2
+      - originConversationID: 2
+        originDialogueID: 168
+        destinationConversationID: 2
+        destinationDialogueID: 170
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -15435,8 +15441,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 163.95601
-        y: 1420.8866
+        x: 152.4806
+        y: 1396.2965
         width: 160
         height: 30
     - id: 169
@@ -15466,8 +15472,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: How hasn't he been caught yet? Especially since he's doing deals out
-          in the open?
+        value: I can see where that might be an issue
         type: 0
         typeString: 
       - title: Parenthetical
@@ -15503,11 +15508,78 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 38.704926
-        y: 1467.5197
+        x: 14.114769
+        y: 1449.4868
         width: 160
         height: 30
-    canvasScrollPosition: {x: 0, y: 982.2733}
+    - id: 170
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Wy did you take the deal then?
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 223.27872
+        y: 1451.1259
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 0, y: 1077.3555}
     canvasZoom: 0.60999995
   - id: 3
     fields:

@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _emailEntries:
   - {fileID: 11400000, guid: 8d33997dac22b9547b56f862c2dd9b47, type: 2}
+  - {fileID: 11400000, guid: 2902b521e5b268f449449cae81eb81e9, type: 2}
+  - {fileID: 11400000, guid: 50bd3c3379cb55f47b0ca4df55d48ecd, type: 2}

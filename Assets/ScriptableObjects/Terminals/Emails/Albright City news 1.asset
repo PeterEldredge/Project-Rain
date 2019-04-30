@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943f2c4bb5f28e343a52ca4673dc080a, type: 3}
+  m_Name: Albright City news 1
+  m_EditorClassIdentifier: 
+  _title: AC News Update
+  _content: "For the third time this month, the Yokomarra industrial complex fell
+    silent as workers continued their string of organized walk outs. \r\n\r\nA demonstration
+    was also made outside of CT Industries headquarters, as protesters held signs
+    and chanted for better working conditions and more responsibility from the company.
+    This comes right off the heels of the disaster at Wylder Power Plant, where a
+    reactor explosion killed 57, and set the neighboring town ablaze. CT President
+    Porter Croyle has yet to respond directly, but many believe his silence is clear
+    enough. \r\n\r\nPolice were called to disperse the crowd and no arrests were made.
+    \r\n\r\n"
