@@ -3361,7 +3361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224744955091550322
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4265,7 +4265,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e9fd29b2ab3f8749945f6c3462cc0be, type: 3}
+    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -4277,7 +4277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: dwadawdawdawddadawdsadsada
+  m_Text: Give it a shot
 --- !u!1 &1155433153466826
 GameObject:
   m_ObjectHideFlags: 0
@@ -4449,7 +4449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224971577092445904
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5136,7 +5136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224567182441769766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14594,7 +14594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224125950294037924
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15038,7 +15038,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e9fd29b2ab3f8749945f6c3462cc0be, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -15050,45 +15050,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'dhawugdbiaudbiuawbuiabfubufibufbauiwbdfuawbfadsnjmdnfjosdffsefsefsefesfsfefefsfefsfe
-
-    dawjdahjwiudjawdjawidjawidjiawdjiajdiwjdiawd''
-
-    fjuejnfhusenfujsnfjusnfjsenjfnsejfnes
-
-    dwanmdnawdnjawjdnawd
-
-
-    dwaomdmwaikdmikawmdkmawkdmkawmdkawmdkawmdkawmdaw
-
-
-    dwamkidmwkdmwakdmwakd
-
-    dwmlkadmd
-
-    dwa
-
-
-    wamkdmwakdmkfmkdsemfksaemfsekf
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    fat penis'
+  m_Text: "Hey,\r\n\r\nI hope you\u2019ve been thinking about what I said. \r\n\r\nI
+    know it may seem like a lot, but joining the cause is one of the best decisions
+    I\u2019ve ever made. It\u2019s a chance to be a part of something bigger than
+    yourself. These are great people, fighting for us to be treated like actual human
+    beings. I know your mom\u2019s death has been hard on you, but I must remind you
+    that it was the government who put her in that situation in the first place. They
+    just want to control us. And I for one, am tired of having no say in how I live
+    my life. \r\n\r\nI spoke with my superiors, and they informed me that there should
+    be a precinct up near your tenant complex. Give them a chance, will you? If not
+    for me or your mom, do it for yourself.\r\n\r\nStay Strong,\r\n                         Travis.\r\n"
 --- !u!114 &1689914507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21029,7 +21000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224172252696786808
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32139,8 +32110,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7070688323595549357}
   m_HandleRect: {fileID: 5464924710297455266}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.47742134
+  m_Value: 0
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -32213,8 +32184,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e9fd29b2ab3f8749945f6c3462cc0be, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -32225,7 +32196,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\nMaren keeps losing control whenever someone visits the shop, and then
+    I get a bad rap for it. I barely have any customers as is, and now even the few
+    I could rely on have stopped showing up. \r\n\r\nShe\u2019s scaring them all away,
+    but I don\u2019t know to tell her without making things worse. I should have never
+    gone with that TL3 core when installing her internal processor. I\u2019ve tried
+    replacing it, but she never understands and just assumes I\u2019m trying to hurt
+    her.\r\n\r\nOne of these days I actually might. \r\n\r\nThe last time she short
+    circuited, she went ballistic and startled nearly every tenant in the complex.
+    If we didn\u2019t live in such an isolated shit hole, I would have been arrested
+    on sight. \r\n\r\nI love her to death, but I can\u2019t make a living without
+    any paying customers.\r\n"
 --- !u!1 &1604622272687397865
 GameObject:
   m_ObjectHideFlags: 0
@@ -32393,7 +32374,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Shopkeeper's Note
 --- !u!1 &2173924198095440794
 GameObject:
   m_ObjectHideFlags: 0
@@ -32612,6 +32593,7 @@ GameObject:
   - component: {fileID: 2918061319239664496}
   - component: {fileID: 649287522033015599}
   - component: {fileID: 2029024993}
+  - component: {fileID: 4599471191324806777}
   m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
@@ -32663,6 +32645,20 @@ MonoBehaviour:
   m_ChildControlWidth: 0
   m_ChildControlHeight: 1
 --- !u!114 &2029024993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598092693229530820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &4599471191324806777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
