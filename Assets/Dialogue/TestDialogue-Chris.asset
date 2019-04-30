@@ -3327,8 +3327,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1656.2953
-        y: 430.29193
+        x: 1836.2953
+        y: 560.29193
         width: 160
         height: 30
     - id: 1
@@ -3400,8 +3400,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1641.2954
-        y: 513.29193
+        x: 1821.2954
+        y: 633.29193
         width: 160
         height: 30
     - id: 2
@@ -3479,8 +3479,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1644.2954
-        y: 572.29193
+        x: 1824.2954
+        y: 702.29193
         width: 160
         height: 30
     - id: 3
@@ -3552,8 +3552,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1531.5294
-        y: 648.6749
+        x: 1711.5294
+        y: 778.6749
         width: 160
         height: 30
     - id: 4
@@ -3625,8 +3625,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1745.3593
-        y: 646.5473
+        x: 1925.3593
+        y: 776.5473
         width: 160
         height: 30
     - id: 5
@@ -3704,8 +3704,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1913.1987
-        y: 772.1906
+        x: 2093.1987
+        y: 902.1906
         width: 160
         height: 30
     - id: 6
@@ -3783,8 +3783,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1463.4736
-        y: 744.3466
+        x: 1643.4736
+        y: 874.3466
         width: 160
         height: 30
     - id: 7
@@ -3857,8 +3857,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1535.3431
-        y: 817.0528
+        x: 1715.3431
+        y: 947.0528
         width: 160
         height: 30
     - id: 8
@@ -3930,8 +3930,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1270.799
-        y: 824.06964
+        x: 1450.799
+        y: 954.06964
         width: 160
         height: 30
     - id: 9
@@ -4004,8 +4004,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2056.843
-        y: 859.9002
+        x: 2236.843
+        y: 989.9002
         width: 160
         height: 30
     - id: 10
@@ -4078,8 +4078,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1847.885
-        y: 860.38403
+        x: 2027.885
+        y: 990.38403
         width: 160
         height: 30
     - id: 11
@@ -4152,8 +4152,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2045.279
-        y: 947.1574
+        x: 2225.279
+        y: 1077.1575
         width: 160
         height: 30
     - id: 12
@@ -4226,8 +4226,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1538.2255
-        y: 903.8282
+        x: 1718.2255
+        y: 1033.8281
         width: 160
         height: 30
     - id: 13
@@ -4299,8 +4299,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1096.1815
-        y: 1066.2556
+        x: 1373.55
+        y: 1202.8346
         width: 160
         height: 30
     - id: 14
@@ -4373,8 +4373,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1193.057
-        y: 933.03076
+        x: 1373.057
+        y: 1063.0308
         width: 160
         height: 30
     - id: 15
@@ -4444,6 +4444,12 @@ MonoBehaviour:
         destinationDialogueID: 16
         isConnector: 0
         priority: 2
+      - originConversationID: 2
+        originDialogueID: 15
+        destinationConversationID: 2
+        destinationDialogueID: 157
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -4453,8 +4459,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1210.7985
-        y: 1011.4574
+        x: 1390.7985
+        y: 1141.4574
         width: 160
         height: 30
     - id: 16
@@ -4526,8 +4532,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1296.0261
-        y: 1068.4868
+        x: 1554.9735
+        y: 1201.1184
         width: 160
         height: 30
     - id: 17
@@ -4617,8 +4623,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 956.192
-        y: 1136.1917
+        x: 1136.192
+        y: 1266.1917
         width: 160
         height: 30
     - id: 18
@@ -4696,8 +4702,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1390.4025
-        y: 1144.0867
+        x: 1570.4025
+        y: 1274.0867
         width: 160
         height: 30
     - id: 19
@@ -4769,8 +4775,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 778.2393
-        y: 1222.2441
+        x: 958.23926
+        y: 1352.2441
         width: 160
         height: 30
     - id: 20
@@ -4842,8 +4848,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 958.69434
-        y: 1201.8018
+        x: 1138.6943
+        y: 1331.8018
         width: 160
         height: 30
     - id: 21
@@ -4922,8 +4928,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 752.04956
-        y: 1304.7234
+        x: 932.04956
+        y: 1434.7234
         width: 160
         height: 30
     - id: 22
@@ -4990,8 +4996,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1334.8555
-        y: 1219.8818
+        x: 1514.8555
+        y: 1349.8818
         width: 160
         height: 30
     - id: 23
@@ -5063,8 +5069,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1460.2708
-        y: 1282.141
+        x: 1640.2708
+        y: 1412.141
         width: 160
         height: 30
     - id: 24
@@ -5142,8 +5148,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1415.6726
-        y: 1343.3464
+        x: 1595.6726
+        y: 1473.3464
         width: 160
         height: 30
     - id: 25
@@ -5210,8 +5216,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1556.6907
-        y: 1410.23
+        x: 1736.6907
+        y: 1540.23
         width: 160
         height: 30
     - id: 28
@@ -5283,8 +5289,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1154.8555
-        y: 1212.7847
+        x: 1334.8555
+        y: 1342.7847
         width: 160
         height: 30
     - id: 29
@@ -5356,8 +5362,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2230.8533
-        y: 1020.0173
+        x: 2410.8533
+        y: 1150.0173
         width: 160
         height: 30
     - id: 30
@@ -5429,8 +5435,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 957.84296
-        y: 1263.6138
+        x: 1137.843
+        y: 1393.6138
         width: 160
         height: 30
     - id: 31
@@ -5502,8 +5508,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 957.51733
-        y: 1318.8066
+        x: 1137.5173
+        y: 1448.8066
         width: 160
         height: 30
     - id: 32
@@ -5581,8 +5587,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 954.48566
-        y: 1372.4913
+        x: 1134.4856
+        y: 1502.4913
         width: 160
         height: 30
     - id: 34
@@ -5654,8 +5660,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2237.5808
-        y: 1308.2043
+        x: 2417.5808
+        y: 1438.2043
         width: 160
         height: 30
     - id: 35
@@ -5728,8 +5734,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2345.122
-        y: 1131.5587
+        x: 2525.122
+        y: 1261.5587
         width: 160
         height: 30
     - id: 36
@@ -5808,8 +5814,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2378.514
-        y: 1216.5642
+        x: 2558.514
+        y: 1346.5642
         width: 160
         height: 30
     - id: 37
@@ -5881,8 +5887,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2437.4255
-        y: 1310.4355
+        x: 2617.4255
+        y: 1440.4355
         width: 160
         height: 30
     - id: 38
@@ -5972,8 +5978,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2121.5916
-        y: 1382.1404
+        x: 2301.5916
+        y: 1512.1404
         width: 160
         height: 30
     - id: 39
@@ -6051,8 +6057,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2531.802
-        y: 1386.0354
+        x: 2711.802
+        y: 1516.0354
         width: 160
         height: 30
     - id: 40
@@ -6124,8 +6130,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1920.3043
-        y: 1482.8331
+        x: 2100.3042
+        y: 1612.8331
         width: 160
         height: 30
     - id: 41
@@ -6197,8 +6203,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2105.403
-        y: 1490.3336
+        x: 2285.403
+        y: 1620.3336
         width: 160
         height: 30
     - id: 42
@@ -6277,8 +6283,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1960.0718
-        y: 1573.623
+        x: 2140.0718
+        y: 1703.623
         width: 160
         height: 30
     - id: 43
@@ -6345,8 +6351,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2714.2295
-        y: 1437.7799
+        x: 2894.2295
+        y: 1567.7799
         width: 160
         height: 30
     - id: 44
@@ -6418,8 +6424,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2520.6575
-        y: 1474.7227
+        x: 2700.6575
+        y: 1604.7227
         width: 160
         height: 30
     - id: 45
@@ -6497,8 +6503,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2627.3845
-        y: 1621.2327
+        x: 2807.3845
+        y: 1751.2327
         width: 160
         height: 30
     - id: 46
@@ -6565,8 +6571,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2694.3933
-        y: 1727.7505
+        x: 2874.3933
+        y: 1857.7505
         width: 160
         height: 30
     - id: 47
@@ -6638,8 +6644,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2308.913
-        y: 1499.0372
+        x: 2488.913
+        y: 1629.0372
         width: 160
         height: 30
     - id: 48
@@ -6711,8 +6717,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2134.0527
-        y: 1564.4509
+        x: 2314.0527
+        y: 1694.4509
         width: 160
         height: 30
     - id: 49
@@ -6784,8 +6790,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2172.7898
-        y: 1629.0188
+        x: 2352.7898
+        y: 1759.0188
         width: 160
         height: 30
     - id: 50
@@ -6863,8 +6869,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2243.1953
-        y: 1712.3909
+        x: 2423.1953
+        y: 1842.3909
         width: 160
         height: 30
     - id: 51
@@ -6943,8 +6949,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1212.7014
-        y: 1402.215
+        x: 1392.7014
+        y: 1532.215
         width: 160
         height: 30
     - id: 52
@@ -7016,8 +7022,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2329.5327
-        y: 1556.7373
+        x: 2509.5327
+        y: 1686.7373
         width: 160
         height: 30
     - id: 53
@@ -7095,8 +7101,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1842.779
-        y: 947.1597
+        x: 2022.779
+        y: 1077.1597
         width: 160
         height: 30
     - id: 54
@@ -7168,8 +7174,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1982.8445
-        y: 1042.9819
+        x: 2162.8445
+        y: 1172.9819
         width: 160
         height: 30
     - id: 55
@@ -7242,8 +7248,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1781.0515
-        y: 1044.314
+        x: 1961.0515
+        y: 1174.314
         width: 160
         height: 30
     - id: 56
@@ -7315,8 +7321,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1746.7004
-        y: 1141.7438
+        x: 1926.7004
+        y: 1271.7438
         width: 160
         height: 30
     - id: 57
@@ -7388,8 +7394,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1728.096
-        y: 1246.3949
+        x: 1908.096
+        y: 1376.3949
         width: 160
         height: 30
     - id: 58
@@ -7467,8 +7473,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1725.7704
-        y: 1353.3717
+        x: 1905.7704
+        y: 1483.3717
         width: 160
         height: 30
     - id: 59
@@ -7541,8 +7547,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2023.4451
-        y: 1144.0693
+        x: 2203.445
+        y: 1274.0693
         width: 160
         height: 30
     - id: 60
@@ -7608,8 +7614,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2014.1425
-        y: 1274.302
+        x: 2194.1426
+        y: 1404.302
         width: 160
         height: 30
     - id: 61
@@ -7688,8 +7694,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2375.5698
-        y: 1621.9886
+        x: 2555.5698
+        y: 1751.9886
         width: 160
         height: 30
     - id: 62
@@ -7762,8 +7768,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1167.3215
-        y: 1299.0378
+        x: 1347.3215
+        y: 1429.0378
         width: 160
         height: 30
     - id: 63
@@ -7835,8 +7841,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1322.3076
-        y: 1585.8306
+        x: 1502.3076
+        y: 1715.8306
         width: 160
         height: 30
     - id: 64
@@ -7909,8 +7915,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1522.3868
-        y: 1598.7084
+        x: 1702.3868
+        y: 1728.7084
         width: 160
         height: 30
     - id: 65
@@ -7994,8 +8000,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1525.378
-        y: 1647.1398
+        x: 1705.378
+        y: 1777.1398
         width: 160
         height: 30
     - id: 66
@@ -8067,8 +8073,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1202.4395
-        y: 1720.9915
+        x: 1404.8079
+        y: 1815.4651
         width: 160
         height: 30
     - id: 67
@@ -8140,8 +8146,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1418.7769
-        y: 1729.7716
+        x: 1589.5663
+        y: 1866.3506
         width: 160
         height: 30
     - id: 68
@@ -8214,8 +8220,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1606.7485
-        y: 1744.0688
+        x: 1815.6959
+        y: 1875.3846
         width: 160
         height: 30
     - id: 69
@@ -8287,8 +8293,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1137.166
-        y: 1753.5529
+        x: 1317.166
+        y: 1883.5529
         width: 160
         height: 30
     - id: 70
@@ -8361,8 +8367,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1112.1993
-        y: 1802.9701
+        x: 1292.1993
+        y: 1932.9701
         width: 160
         height: 30
     - id: 71
@@ -8435,8 +8441,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1088.0347
-        y: 1859.4231
+        x: 1268.0347
+        y: 1989.4231
         width: 160
         height: 30
     - id: 72
@@ -8508,8 +8514,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 556.34656
-        y: 2045.1365
+        x: 736.34656
+        y: 2175.1365
         width: 160
         height: 30
     - id: 73
@@ -8581,8 +8587,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 954.9238
-        y: 2043.7202
+        x: 1134.9238
+        y: 2173.7202
         width: 160
         height: 30
     - id: 74
@@ -8673,8 +8679,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 890.7079
-        y: 1961.8807
+        x: 1070.7079
+        y: 2091.8809
         width: 160
         height: 30
     - id: 75
@@ -8747,8 +8753,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 775.81934
-        y: 2043.1011
+        x: 955.81934
+        y: 2173.101
         width: 160
         height: 30
     - id: 76
@@ -8821,8 +8827,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 830.4163
-        y: 2106.288
+        x: 1010.41626
+        y: 2236.288
         width: 160
         height: 30
     - id: 77
@@ -8900,8 +8906,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 827.8847
-        y: 2155.6558
+        x: 1007.88477
+        y: 2285.6558
         width: 160
         height: 30
     - id: 78
@@ -8967,8 +8973,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 671.84937
-        y: 2227.8564
+        x: 851.84937
+        y: 2357.8564
         width: 160
         height: 30
     - id: 79
@@ -9035,8 +9041,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 933.6914
-        y: 2230.4883
+        x: 1113.6914
+        y: 2360.4883
         width: 160
         height: 30
     - id: 80
@@ -9108,8 +9114,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1049.4225
-        y: 1907.3699
+        x: 1229.4225
+        y: 2037.3699
         width: 160
         height: 30
     - id: 81
@@ -9181,8 +9187,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1369.7775
-        y: 1824.9315
+        x: 1549.7775
+        y: 1954.9315
         width: 160
         height: 30
     - id: 82
@@ -9255,8 +9261,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1357.7557
-        y: 1875.2625
+        x: 1537.7557
+        y: 2005.2625
         width: 160
         height: 30
     - id: 83
@@ -9329,8 +9335,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1349.8674
-        y: 1920.3136
+        x: 1529.8674
+        y: 2050.3135
         width: 160
         height: 30
     - id: 84
@@ -9402,8 +9408,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1350.6705
-        y: 1974.7065
+        x: 1530.6705
+        y: 2104.7065
         width: 160
         height: 30
     - id: 85
@@ -9476,8 +9482,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1354.7479
-        y: 2037.8378
+        x: 1534.7479
+        y: 2167.838
         width: 160
         height: 30
     - id: 86
@@ -9567,8 +9573,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1352.4847
-        y: 2113.9585
+        x: 1532.4847
+        y: 2243.9585
         width: 160
         height: 30
     - id: 87
@@ -9640,8 +9646,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1148.9111
-        y: 2184.5635
+        x: 1328.9111
+        y: 2314.5635
         width: 160
         height: 30
     - id: 88
@@ -9714,8 +9720,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1334.3997
-        y: 2183.179
+        x: 1514.3997
+        y: 2313.179
         width: 160
         height: 30
     - id: 89
@@ -9787,8 +9793,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1516.305
-        y: 2178.7827
+        x: 1696.305
+        y: 2308.7827
         width: 160
         height: 30
     - id: 90
@@ -9861,8 +9867,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1734.1885
-        y: 2187.5742
+        x: 1914.1885
+        y: 2317.5742
         width: 160
         height: 30
     - id: 91
@@ -9928,8 +9934,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1159.9454
-        y: 2258.5664
+        x: 1339.9454
+        y: 2388.5664
         width: 160
         height: 30
     - id: 92
@@ -10001,8 +10007,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1362.429
-        y: 2245.3645
+        x: 1542.429
+        y: 2375.3645
         width: 160
         height: 30
     - id: 93
@@ -10074,8 +10080,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1553.9088
-        y: 2243.9946
+        x: 1733.9088
+        y: 2373.9946
         width: 160
         height: 30
     - id: 94
@@ -10147,8 +10153,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1762.4287
-        y: 2254.9834
+        x: 1942.4287
+        y: 2384.9834
         width: 160
         height: 30
     - id: 95
@@ -10214,8 +10220,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1494.1917
-        y: 2340.3818
+        x: 1674.1917
+        y: 2470.3818
         width: 160
         height: 30
     - id: 97
@@ -10287,8 +10293,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2420.1123
-        y: 1882.2235
+        x: 2600.1123
+        y: 2012.2235
         width: 160
         height: 30
     - id: 98
@@ -10361,8 +10367,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2516.4084
-        y: 1990.4132
+        x: 2696.4084
+        y: 2120.413
         width: 160
         height: 30
     - id: 99
@@ -10446,8 +10452,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2511.916
-        y: 2052.167
+        x: 2691.916
+        y: 2182.167
         width: 160
         height: 30
     - id: 100
@@ -10519,8 +10525,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2292.8428
-        y: 2087.3677
+        x: 2472.8428
+        y: 2217.3677
         width: 160
         height: 30
     - id: 101
@@ -10586,8 +10592,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2668.3906
-        y: 2131.6743
+        x: 2848.3906
+        y: 2261.6743
         width: 160
         height: 30
     - id: 102
@@ -10660,8 +10666,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2465.573
-        y: 2119.6553
+        x: 2645.573
+        y: 2249.6553
         width: 160
         height: 30
     - id: 103
@@ -10733,8 +10739,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2274.938
-        y: 2143.6133
+        x: 2454.938
+        y: 2273.6133
         width: 160
         height: 30
     - id: 104
@@ -10807,8 +10813,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2257.8657
-        y: 2208.8196
+        x: 2437.8657
+        y: 2338.8196
         width: 160
         height: 30
     - id: 105
@@ -10881,8 +10887,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2217.9116
-        y: 2266.5889
+        x: 2397.9116
+        y: 2396.5889
         width: 160
         height: 30
     - id: 106
@@ -10954,8 +10960,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1737.5393
-        y: 2460.1968
+        x: 1917.5393
+        y: 2590.1968
         width: 160
         height: 30
     - id: 107
@@ -11027,8 +11033,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2169.0112
-        y: 2462.728
+        x: 2349.0112
+        y: 2592.728
         width: 160
         height: 30
     - id: 108
@@ -11113,8 +11119,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2000.8481
-        y: 2372.9937
+        x: 2180.8481
+        y: 2502.9937
         width: 160
         height: 30
     - id: 109
@@ -11187,8 +11193,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1957.0122
-        y: 2464.7402
+        x: 2137.0122
+        y: 2594.7402
         width: 160
         height: 30
     - id: 110
@@ -11261,8 +11267,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1940.5564
-        y: 2517.401
+        x: 2120.5564
+        y: 2647.401
         width: 160
         height: 30
     - id: 111
@@ -11340,8 +11346,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1938.0249
-        y: 2566.7686
+        x: 2118.025
+        y: 2696.7686
         width: 160
         height: 30
     - id: 112
@@ -11407,8 +11413,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1781.9895
-        y: 2638.9692
+        x: 1961.9895
+        y: 2768.9692
         width: 160
         height: 30
     - id: 113
@@ -11475,8 +11481,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2043.8315
-        y: 2641.601
+        x: 2223.8315
+        y: 2771.601
         width: 160
         height: 30
     - id: 114
@@ -11548,8 +11554,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2200.352
-        y: 2329.0093
+        x: 2380.352
+        y: 2459.0093
         width: 160
         height: 30
     - id: 115
@@ -11621,8 +11627,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2478.6018
-        y: 2218.9395
+        x: 2658.6018
+        y: 2348.9395
         width: 160
         height: 30
     - id: 116
@@ -11695,8 +11701,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2466.58
-        y: 2269.27
+        x: 2646.58
+        y: 2399.27
         width: 160
         height: 30
     - id: 117
@@ -11769,8 +11775,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460.0076
-        y: 2331.4268
+        x: 2640.0076
+        y: 2461.4268
         width: 160
         height: 30
     - id: 118
@@ -11842,8 +11848,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2460.8105
-        y: 2385.8193
+        x: 2640.8105
+        y: 2515.8193
         width: 160
         height: 30
     - id: 119
@@ -11916,8 +11922,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2459.3936
-        y: 2430.2695
+        x: 2639.3936
+        y: 2560.2695
         width: 160
         height: 30
     - id: 120
@@ -12007,8 +12013,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2461.526
-        y: 2487.709
+        x: 2641.526
+        y: 2617.709
         width: 160
         height: 30
     - id: 121
@@ -12080,8 +12086,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2278.8315
-        y: 2542.9292
+        x: 2458.8315
+        y: 2672.9292
         width: 160
         height: 30
     - id: 122
@@ -12154,8 +12160,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2461.0232
-        y: 2547.039
+        x: 2641.0232
+        y: 2677.039
         width: 160
         height: 30
     - id: 123
@@ -12227,8 +12233,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2647.3242
-        y: 2547.0386
+        x: 2827.3242
+        y: 2677.0386
         width: 160
         height: 30
     - id: 124
@@ -12301,8 +12307,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2837.7354
-        y: 2547.039
+        x: 3017.7354
+        y: 2677.039
         width: 160
         height: 30
     - id: 125
@@ -12368,8 +12374,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2262.3933
-        y: 2605.9429
+        x: 2442.3933
+        y: 2735.9429
         width: 160
         height: 30
     - id: 126
@@ -12441,8 +12447,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2458.2832
-        y: 2611.4224
+        x: 2638.2832
+        y: 2741.4224
         width: 160
         height: 30
     - id: 127
@@ -12514,8 +12520,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2659.6533
-        y: 2610.0527
+        x: 2839.6533
+        y: 2740.0527
         width: 160
         height: 30
     - id: 128
@@ -12587,8 +12593,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2858.2832
-        y: 2610.0522
+        x: 3038.2832
+        y: 2740.0522
         width: 160
         height: 30
     - id: 129
@@ -12654,8 +12660,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2596.6396
-        y: 2725.121
+        x: 2776.6396
+        y: 2855.121
         width: 160
         height: 30
     - id: 130
@@ -12721,8 +12727,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2181.8552
-        y: 1909.2993
+        x: 2361.8552
+        y: 2039.2993
         width: 160
         height: 30
     - id: 131
@@ -12788,8 +12794,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1772.4803
-        y: 1546.7996
+        x: 1952.4803
+        y: 1676.7996
         width: 160
         height: 30
     - id: 132
@@ -12855,8 +12861,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 958.41833
-        y: 1634.2994
+        x: 1138.4183
+        y: 1764.2994
         width: 160
         height: 30
     - id: 133
@@ -12928,8 +12934,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 586.5347
-        y: 1211.9203
+        x: 766.5347
+        y: 1341.9203
         width: 160
         height: 30
     - id: 134
@@ -13001,8 +13007,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 219.42972
-        y: 1371.1307
+        x: 399.42972
+        y: 1501.1307
         width: 160
         height: 30
     - id: 135
@@ -13087,8 +13093,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 515.4822
-        y: 1298.7622
+        x: 695.4822
+        y: 1428.7622
         width: 160
         height: 30
     - id: 136
@@ -13160,8 +13166,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 433.90323
-        y: 1369.815
+        x: 613.9032
+        y: 1499.815
         width: 160
         height: 30
     - id: 137
@@ -13233,8 +13239,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 637.8505
-        y: 1373.7623
+        x: 817.8505
+        y: 1503.7623
         width: 160
         height: 30
     - id: 138
@@ -13301,8 +13307,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 224.19955
-        y: 1503.6392
+        x: 404.19955
+        y: 1633.6392
         width: 160
         height: 30
     - id: 139
@@ -13375,8 +13381,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 433.57434
-        y: 1453.6392
+        x: 613.57434
+        y: 1583.6392
         width: 160
         height: 30
     - id: 140
@@ -13454,8 +13460,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 491.3869
-        y: 1523.9517
+        x: 671.3869
+        y: 1653.9517
         width: 160
         height: 30
     - id: 141
@@ -13527,8 +13533,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 677.32416
-        y: 1417.7018
+        x: 857.32416
+        y: 1547.7018
         width: 160
         height: 30
     - id: 142
@@ -13612,8 +13618,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 705.4491
-        y: 1484.8893
+        x: 885.4491
+        y: 1614.8893
         width: 160
         height: 30
     - id: 143
@@ -13679,8 +13685,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 674.1992
-        y: 1631.7642
+        x: 854.1992
+        y: 1761.7642
         width: 160
         height: 30
     - id: 144
@@ -13752,8 +13758,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2975.7385
-        y: 1652.0768
+        x: 3155.7385
+        y: 1782.0768
         width: 160
         height: 30
     - id: 145
@@ -13825,8 +13831,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2869.5706
-        y: 1831.5997
+        x: 3049.5706
+        y: 1961.5997
         width: 160
         height: 30
     - id: 146
@@ -13911,8 +13917,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3165.623
-        y: 1759.2312
+        x: 3345.623
+        y: 1889.2312
         width: 160
         height: 30
     - id: 147
@@ -13984,8 +13990,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3084.0442
-        y: 1830.2839
+        x: 3264.0442
+        y: 1960.2839
         width: 160
         height: 30
     - id: 148
@@ -14057,8 +14063,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3287.9922
-        y: 1834.2313
+        x: 3467.9922
+        y: 1964.2313
         width: 160
         height: 30
     - id: 149
@@ -14125,8 +14131,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 2874.3403
-        y: 1964.1083
+        x: 3054.3403
+        y: 2094.1084
         width: 160
         height: 30
     - id: 150
@@ -14199,8 +14205,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3083.715
-        y: 1914.1083
+        x: 3263.715
+        y: 2044.1084
         width: 160
         height: 30
     - id: 151
@@ -14266,8 +14272,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3141.5278
-        y: 1984.4213
+        x: 3321.5278
+        y: 2114.4214
         width: 160
         height: 30
     - id: 152
@@ -14339,8 +14345,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3327.4658
-        y: 1878.1708
+        x: 3507.4658
+        y: 2008.1708
         width: 160
         height: 30
     - id: 153
@@ -14412,8 +14418,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3355.5908
-        y: 1945.3583
+        x: 3535.5908
+        y: 2075.3584
         width: 160
         height: 30
     - id: 154
@@ -14479,8 +14485,8 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 3324.3408
-        y: 2092.232
+        x: 3504.3408
+        y: 2222.232
         width: 160
         height: 30
     - id: 155
@@ -14546,12 +14552,963 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
       canvasRect:
         serializedVersion: 2
-        x: 1148.177
-        y: 2044.3591
+        x: 1328.177
+        y: 2174.3591
         width: 160
         height: 30
-    canvasScrollPosition: {x: 425.5454, y: 1810.1488}
-    canvasZoom: 0.7599999
+    - id: 157
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Alright, I won''t ask anything else. You seem stressed so I''ll let
+          you be. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 157
+        destinationConversationID: 2
+        destinationDialogueID: 158
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 1156.5784
+        y: 1067.78
+        width: 160
+        height: 30
+    - id: 158
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Wait, I didn''t mean to like scare you off completely. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 158
+        destinationConversationID: 2
+        destinationDialogueID: 160
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 969.7368
+        y: 1092.7804
+        width: 160
+        height: 30
+    - id: 159
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Just... Keep an eye out for him, will ya? And stay safe out there. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 159
+        destinationConversationID: 2
+        destinationDialogueID: 161
+        isConnector: 0
+        priority: 2
+      - originConversationID: 2
+        originDialogueID: 159
+        destinationConversationID: 2
+        destinationDialogueID: 162
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 713.15753
+        y: 1203.3066
+        width: 160
+        height: 30
+    - id: 160
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Holding a package for someone with "slayer" in their name is pretty
+          fucking stressful.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 160
+        destinationConversationID: 2
+        destinationDialogueID: 159
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 849.99976
+        y: 1142.78
+        width: 160
+        height: 30
+    - id: 161
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Will do!
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 526.29407
+        y: 1049.1652
+        width: 160
+        height: 30
+    - id: 162
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: I know I said I wouldn't ask anything else, but is there anything I
+          should know about this guy first?
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 162
+        destinationConversationID: 2
+        destinationDialogueID: 163
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 409.68518
+        y: 1116.6372
+        width: 160
+        height: 30
+    - id: 163
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Yea sure... I guess... Well he's not supposed to be the friendliest
+          guy.
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 163
+        destinationConversationID: 2
+        destinationDialogueID: 164
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 281.27698
+        y: 1187.3231
+        width: 160
+        height: 30
+    - id: 164
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'I''ve never met him myself, but the stories basically say that he''s
+          liable to kill any and everyone. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 164
+        destinationConversationID: 2
+        destinationDialogueID: 165
+        isConnector: 0
+        priority: 2
+      - originConversationID: 2
+        originDialogueID: 164
+        destinationConversationID: 2
+        destinationDialogueID: 166
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 235.76364
+        y: 1258.6348
+        width: 160
+        height: 30
+    - id: 165
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Well, that''s a bit concerning. Thanks for the info. I''ll keep my
+          eyes out for him. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 43.830933
+        y: 1192.1765
+        width: 160
+        height: 30
+    - id: 166
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: How hasn't he been caught yet? Especially since he's doing deals out
+          in the open?
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 166
+        destinationConversationID: 2
+        destinationDialogueID: 167
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 172.73083
+        y: 1305.3558
+        width: 160
+        height: 30
+    - id: 167
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Well... he supposedly kills all the witnesses. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 167
+        destinationConversationID: 2
+        destinationDialogueID: 168
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 162.40643
+        y: 1368.1257
+        width: 160
+        height: 30
+    - id: 168
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Which is why I''m a bit concerned about this interaction. '
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 168
+        destinationConversationID: 2
+        destinationDialogueID: 169
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 163.95601
+        y: 1420.8866
+        width: 160
+        height: 30
+    - id: 169
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: How hasn't he been caught yet? Especially since he's doing deals out
+          in the open?
+        type: 0
+        typeString: 
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: 
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+        m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      canvasRect:
+        serializedVersion: 2
+        x: 38.704926
+        y: 1467.5197
+        width: 160
+        height: 30
+    canvasScrollPosition: {x: 0, y: 982.2733}
+    canvasZoom: 0.60999995
   - id: 3
     fields:
     - title: Title

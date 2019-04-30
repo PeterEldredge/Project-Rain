@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943f2c4bb5f28e343a52ca4673dc080a, type: 3}
+  m_Name: Travis email
+  m_EditorClassIdentifier: 
+  _title: 'Check it out please. '
+  _content: "Hey,\r\n\r\nI hope you\u2019ve been thinking about what I said. \r\n\r\nI
+    know it may seem like a lot, but joining the cause is one of the best decisions
+    I\u2019ve ever made. It\u2019s a chance to be a part of something bigger than
+    yourself. These are great people, fighting for us to be treated like actual human
+    beings. I know your mom\u2019s death has been hard on you, but I must remind you
+    that it was the government who put her in that situation in the first place. They
+    just want to control us. And I for one, am tired of having no say in how I live
+    my life. \r\n\r\nI spoke with my superiors, and they informed me that there should
+    be a precinct up near your tenant complex. Give them a chance, will you? If not
+    for me or your mom, do it for yourself.\r\n\r\nStay Strong,\r\n                         Travis.\r\n"
