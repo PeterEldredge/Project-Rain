@@ -12,7 +12,14 @@ public class TerminalController : MonoBehaviour {
 	[SerializeField] private Text _emailTitle;
 	[SerializeField] private Text _emailContent;
 
+	private LayoutElement _emailContentLayoutElement;
+
 	private TerminalContent _terminalContent;
+
+	private void Awake()
+	{
+		_emailContentLayoutElement = _emailContent.gameObject.GetComponent<LayoutElement>();
+	}
 
 	public void Initialize(TerminalContent terminalContent)
 	{
@@ -66,5 +73,6 @@ public class TerminalController : MonoBehaviour {
 
 		_emailTitle.text = currentEntry.Title;
 		_emailContent.text = currentEntry.Content;
+		_emailContentLayoutElement.preferredHeight = _emailContent.preferredHeight;
 	}
 }
