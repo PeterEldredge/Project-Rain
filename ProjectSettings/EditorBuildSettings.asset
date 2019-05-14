@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Peter/CourtyardTesting.unity
     guid: f8ca8dd50ef16fa44b536033f40cd763
+  - enabled: 1
+    path: Assets/Scenes/Chris/Janslayer's Appartment.unity
+    guid: 6ad502e9a6b9c254bb24e22ef1088cde
+  - enabled: 1
+    path: Assets/Scenes/Chris/Store.unity
+    guid: 404def68cae3e574294615b41ac2a5fb
   m_configObjects: {}
