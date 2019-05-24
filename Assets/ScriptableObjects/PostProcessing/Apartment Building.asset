@@ -26,7 +26,7 @@ MonoBehaviour:
         motionVectorsResolution: 24
         motionVectorsAmplitude: 64
   fog:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       excludeSkybox: 1
   antialiasing:
@@ -43,7 +43,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 0
     m_Settings:
-      intensity: 4
+      intensity: 0
       radius: 5
       sampleCount: 16
       downsampling: 1
@@ -114,8 +114,8 @@ MonoBehaviour:
     m_Settings:
       tonemapping:
         tonemapper: 2
-        neutralBlackIn: 0.051
-        neutralWhiteIn: 9.1
+        neutralBlackIn: 0.057
+        neutralWhiteIn: 8.4
         neutralBlackOut: 0.01
         neutralWhiteOut: 10.3
         neutralWhiteLevel: 2.6
