@@ -43,7 +43,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.5
+      intensity: 1
       radius: 1
       sampleCount: 16
       downsampling: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 1.5
+        intensity: 0.5
         threshold: 1
         softKnee: 0.32
         radius: 4
@@ -125,7 +125,7 @@ MonoBehaviour:
         temperature: -10
         tint: 5
         hueShift: 0
-        saturation: 1.09
+        saturation: 1.1
         contrast: 1
       channelMixer:
         red: {x: 1, y: 0.08, z: 0.44}
