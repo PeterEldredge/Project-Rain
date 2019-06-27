@@ -482,6 +482,8 @@ namespace Opsive.UltimateCharacterController.Game
             Instance.SetCameraLookVectorInternal(cameraIndex, lookVector);
         }
 
+        private float DELTA_TIME = 0;
+
         /// <summary>
         /// Internal method which sets the look vector of the camera.
         /// </summary>
@@ -489,6 +491,8 @@ namespace Opsive.UltimateCharacterController.Game
         /// <param name="lookVector">The look vector of the camera.</param>
         private void SetCameraLookVectorInternal(int cameraIndex, Vector2 lookVector)
         {
+            lookVector.x = lookVector.x * (int)(1 / DELTA_TIME) / 60;
+            lookVector.y = lookVector.y * (int)(1 / DELTA_TIME) / 60;
             m_Cameras[cameraIndex].LookVector = lookVector;
         }
 
@@ -537,6 +541,8 @@ namespace Opsive.UltimateCharacterController.Game
         /// </summary>
         private void Update()
         {
+            DELTA_TIME = Time.deltaTime;
+
             // If the times are equal then the fixed framerate is ticked at the same rate as the variable framerate. The most recent fixed position should
             // be used in this case.
             var interpAmount = (Time.time == m_FixedTime) ? 1 : (Time.time - m_FixedTime) / Time.fixedDeltaTime;
